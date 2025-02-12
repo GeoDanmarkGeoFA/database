@@ -1,0 +1,187 @@
+{
+    "name": "d_tabel",
+    "columns": [
+        {
+            "name": "tema_kode",
+            "type": "integer",
+            "is_nullable": false,
+            "default_value": null,
+            "comment": null,
+            "_num": 1,
+            "_typname": "int4",
+            "_is_array": false,
+            "_character_maximum_length": null,
+            "_numeric_precision": 32,
+            "_numeric_scale": 0,
+            "_max_bytes": 4,
+            "_reference": null,
+            "_restriction": null,
+            "_is_primary": true,
+            "_is_unique": true,
+            "_index_method": [
+                "btree"
+            ],
+            "_checks": null
+        },
+        {
+            "name": "tema_navn",
+            "type": "character varying",
+            "is_nullable": false,
+            "default_value": null,
+            "comment": null,
+            "_num": 2,
+            "_typname": "varchar",
+            "_is_array": false,
+            "_character_maximum_length": -5,
+            "_numeric_precision": null,
+            "_numeric_scale": null,
+            "_max_bytes": 1073741824,
+            "_reference": null,
+            "_restriction": null,
+            "_is_primary": false,
+            "_is_unique": true,
+            "_index_method": [
+                "btree"
+            ],
+            "_checks": null
+        },
+        {
+            "name": "geo",
+            "type": "character(1)",
+            "is_nullable": false,
+            "default_value": null,
+            "comment": null,
+            "_num": 3,
+            "_typname": "bpchar",
+            "_is_array": false,
+            "_character_maximum_length": null,
+            "_numeric_precision": null,
+            "_numeric_scale": null,
+            "_max_bytes": null,
+            "_reference": null,
+            "_restriction": null,
+            "_is_primary": false,
+            "_is_unique": false,
+            "_index_method": null,
+            "_checks": [
+                "geo = ANY (ARRAY['P'::bpchar, 'L'::bpchar, 'F'::bpchar]"
+            ]
+        },
+        {
+            "name": "udvekslingsnavn",
+            "type": "character varying",
+            "is_nullable": false,
+            "default_value": null,
+            "comment": null,
+            "_num": 4,
+            "_typname": "varchar",
+            "_is_array": false,
+            "_character_maximum_length": -5,
+            "_numeric_precision": null,
+            "_numeric_scale": null,
+            "_max_bytes": 1073741824,
+            "_reference": null,
+            "_restriction": null,
+            "_is_primary": false,
+            "_is_unique": true,
+            "_index_method": [
+                "btree"
+            ],
+            "_checks": null
+        },
+        {
+            "name": "temagruppe_id",
+            "type": "character varying",
+            "is_nullable": false,
+            "default_value": null,
+            "comment": null,
+            "_num": 5,
+            "_typname": "varchar",
+            "_is_array": false,
+            "_character_maximum_length": -5,
+            "_numeric_precision": null,
+            "_numeric_scale": null,
+            "_max_bytes": 1073741824,
+            "_reference": [
+                "fkg.d_temagruppe.temagruppe_id"
+            ],
+            "_restriction": null,
+            "_is_primary": false,
+            "_is_unique": false,
+            "_index_method": null,
+            "_checks": null
+        }
+    ],
+    "indices": [
+        {
+            "name": "d_tabel_pk",
+            "method": "btree",
+            "unique": true,
+            "columns": [
+                "tema_kode"
+            ]
+        },
+        {
+            "name": "d_tabel_temanavn_uc",
+            "method": "btree",
+            "unique": true,
+            "columns": [
+                "tema_navn"
+            ]
+        },
+        {
+            "name": "d_tabel_udvekslingsnavn_uc",
+            "method": "btree",
+            "unique": true,
+            "columns": [
+                "udvekslingsnavn"
+            ]
+        }
+    ],
+    "constraints": [
+        {
+            "name": "geo_ck",
+            "constraint": "check",
+            "check": "geo = ANY (ARRAY['P'::bpchar, 'L'::bpchar, 'F'::bpchar]"
+        },
+        {
+            "name": "d_tabel_pk",
+            "constraint": "primary",
+            "columns": [
+                "tema_kode"
+            ]
+        },
+        {
+            "name": "d_tabel_temanavn_uc",
+            "constraint": "unique",
+            "columns": [
+                "tema_navn"
+            ]
+        },
+        {
+            "name": "d_tabel_udvekslingsnavn_uc",
+            "constraint": "unique",
+            "columns": [
+                "udvekslingsnavn"
+            ]
+        },
+        {
+            "name": "d_tabel_d_temagruppe_fk",
+            "constraint": "foreign",
+            "columns": [
+                "temagruppe_id"
+            ],
+            "referenced_table": "d_temagruppe",
+            "referenced_columns": [
+                "temagruppe_id"
+            ]
+        }
+    ],
+    "comment": null,
+    "links": {
+        "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_tabel\/columns",
+        "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_tabel\/indices",
+        "constraints": "\/api\/v4\/schemas\/fkg\/tables\/d_tabel\/constraints",
+        "privileges": "\/api\/v4\/schemas\/fkg\/tables\/d_tabel\/privileges"
+    }
+}

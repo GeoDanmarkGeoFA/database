@@ -1,0 +1,113 @@
+{
+    "name": "d_6803_pg_distrikt",
+    "columns": [
+        {
+            "name": "pg_distrikt_kode",
+            "type": "integer",
+            "is_nullable": false,
+            "default_value": null,
+            "comment": null,
+            "_num": 1,
+            "_typname": "int4",
+            "_is_array": false,
+            "_character_maximum_length": null,
+            "_numeric_precision": 32,
+            "_numeric_scale": 0,
+            "_max_bytes": 4,
+            "_reference": null,
+            "_restriction": null,
+            "_is_primary": true,
+            "_is_unique": true,
+            "_index_method": [
+                "btree"
+            ],
+            "_checks": null
+        },
+        {
+            "name": "pg_distrikt",
+            "type": "character varying(50)",
+            "is_nullable": false,
+            "default_value": null,
+            "comment": null,
+            "_num": 2,
+            "_typname": "varchar",
+            "_is_array": false,
+            "_character_maximum_length": 50,
+            "_numeric_precision": null,
+            "_numeric_scale": null,
+            "_max_bytes": 200,
+            "_reference": null,
+            "_restriction": null,
+            "_is_primary": false,
+            "_is_unique": false,
+            "_index_method": null,
+            "_checks": null
+        },
+        {
+            "name": "aktiv",
+            "type": "integer",
+            "is_nullable": false,
+            "default_value": null,
+            "comment": null,
+            "_num": 3,
+            "_typname": "int4",
+            "_is_array": false,
+            "_character_maximum_length": null,
+            "_numeric_precision": 32,
+            "_numeric_scale": 0,
+            "_max_bytes": 4,
+            "_reference": null,
+            "_restriction": null,
+            "_is_primary": false,
+            "_is_unique": false,
+            "_index_method": null,
+            "_checks": null
+        },
+        {
+            "name": "begrebsdefinition",
+            "type": "character varying",
+            "is_nullable": true,
+            "default_value": null,
+            "comment": null,
+            "_num": 4,
+            "_typname": "varchar",
+            "_is_array": false,
+            "_character_maximum_length": -5,
+            "_numeric_precision": null,
+            "_numeric_scale": null,
+            "_max_bytes": 1073741824,
+            "_reference": null,
+            "_restriction": null,
+            "_is_primary": false,
+            "_is_unique": false,
+            "_index_method": null,
+            "_checks": null
+        }
+    ],
+    "indices": [
+        {
+            "name": "d_6803_pg_distrikt_pk",
+            "method": "btree",
+            "unique": true,
+            "columns": [
+                "pg_distrikt_kode"
+            ]
+        }
+    ],
+    "constraints": [
+        {
+            "name": "d_6803_pg_distrikt_pk",
+            "constraint": "primary",
+            "columns": [
+                "pg_distrikt_kode"
+            ]
+        }
+    ],
+    "comment": null,
+    "links": {
+        "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_6803_pg_distrikt\/columns",
+        "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_6803_pg_distrikt\/indices",
+        "constraints": "\/api\/v4\/schemas\/fkg\/tables\/d_6803_pg_distrikt\/constraints",
+        "privileges": "\/api\/v4\/schemas\/fkg\/tables\/d_6803_pg_distrikt\/privileges"
+    }
+}
