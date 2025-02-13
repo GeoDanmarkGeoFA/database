@@ -4,8 +4,6 @@
         {
             "name": "versions_id",
             "type": "uuid",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 1,
             "_typname": "uuid",
@@ -18,8 +16,10 @@
                 "fkg.generel.versions_id"
             ],
             "_restriction": null,
-            "_is_primary": true,
             "_is_unique": true,
+            "_is_primary": true,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "btree"
             ],
@@ -28,8 +28,6 @@
         {
             "name": "vandv_nr",
             "type": "character varying(25)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 2,
             "_typname": "varchar",
@@ -42,16 +40,16 @@
                 "fkg.d_basis_vandv_nr.vandv_nr"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "fors_omr_type_kode",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 3,
             "_typname": "int4",
@@ -64,16 +62,16 @@
                 "fkg.d_basis_fors_omr_type.fors_omr_type_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "gyldig_fra",
             "type": "date",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 4,
             "_typname": "date",
@@ -84,16 +82,16 @@
             "_max_bytes": 4,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "gyldig_til",
             "type": "date",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 5,
             "_typname": "date",
@@ -104,16 +102,16 @@
             "_max_bytes": 4,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "link",
             "type": "character varying(1024)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 6,
             "_typname": "varchar",
@@ -124,16 +122,16 @@
             "_max_bytes": 4096,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "geometri",
             "type": "geometry(MultiPolygon,25832)",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 7,
             "_typname": "geometry",
@@ -144,8 +142,10 @@
             "_max_bytes": null,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "gist"
             ],

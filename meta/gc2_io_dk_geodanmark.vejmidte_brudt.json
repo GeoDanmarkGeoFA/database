@@ -6,7 +6,7 @@
     "f_table_abstract": null,
     "f_table_title": "Vejmidter",
     "pkey": "objekt_id",
-    "rel_type": null,
+    "rel_type": "FOREIGN TABLE",
     "coord_dimension": 2,
     "type": "LINESTRING",
     "srid": 25832,
@@ -19,8 +19,6 @@
     "fields": {
         "gid": {
             "type": "integer",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "num": 1,
             "full_type": "integer",
@@ -31,16 +29,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "gml_id": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 2,
             "full_type": "character varying",
@@ -51,16 +43,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "cvfadmnr": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 3,
             "full_type": "integer",
@@ -71,16 +57,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "fot_id": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 4,
             "full_type": "integer",
@@ -91,16 +71,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "fiktiv_brudt": {
             "type": "boolean",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 5,
             "full_type": "boolean",
@@ -111,16 +85,10 @@
             "numeric_scale": null,
             "max_bytes": 1,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "fra_dato_fot": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 6,
             "full_type": "character varying",
@@ -131,16 +99,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "geometri_status": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 7,
             "full_type": "character varying",
@@ -151,16 +113,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "kommunekode": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 8,
             "full_type": "integer",
@@ -171,16 +127,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "moderfotid": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 9,
             "full_type": "integer",
@@ -191,16 +141,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "niveau_brudt": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 10,
             "full_type": "character varying",
@@ -211,16 +155,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "objekt_status": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 11,
             "full_type": "character varying",
@@ -231,16 +169,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "overflade_brudt": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 12,
             "full_type": "character varying",
@@ -251,16 +183,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "plads_brudt": {
             "type": "boolean",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 13,
             "full_type": "boolean",
@@ -271,16 +197,10 @@
             "numeric_scale": null,
             "max_bytes": 1,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "rundkoersel_brudt": {
             "type": "boolean",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 14,
             "full_type": "boolean",
@@ -291,16 +211,10 @@
             "numeric_scale": null,
             "max_bytes": 1,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "slutknude": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 15,
             "full_type": "integer",
@@ -311,16 +225,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "startknude": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 16,
             "full_type": "integer",
@@ -331,16 +239,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "trafikart_brudt": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 17,
             "full_type": "character varying",
@@ -351,16 +253,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "vejklasse_brudt": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 18,
             "full_type": "character varying",
@@ -371,16 +267,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "vejmidtetype": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 19,
             "full_type": "character varying",
@@ -391,16 +281,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "vejmyndighed": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 20,
             "full_type": "character varying",
@@ -411,16 +295,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "vejkode": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 21,
             "full_type": "integer",
@@ -431,16 +309,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": null,
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "the_geom": {
             "type": "geometry",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 22,
             "full_type": "geometry(LineString,25832)",
@@ -452,10 +324,6 @@
             "max_bytes": null,
             "reference": null,
             "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null,
             "geom_type": "LineString",
             "srid": "25832"
         }

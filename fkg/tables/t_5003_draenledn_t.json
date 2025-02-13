@@ -4,8 +4,6 @@
         {
             "name": "versions_id",
             "type": "uuid",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 1,
             "_typname": "uuid",
@@ -18,8 +16,10 @@
                 "fkg.generel.versions_id"
             ],
             "_restriction": null,
-            "_is_primary": true,
             "_is_unique": true,
+            "_is_primary": true,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "btree"
             ],
@@ -28,8 +28,6 @@
         {
             "name": "ledn_nr",
             "type": "character varying(20)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 2,
             "_typname": "varchar",
@@ -40,16 +38,16 @@
             "_max_bytes": 80,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "ledn_type_kode",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 3,
             "_typname": "int4",
@@ -62,16 +60,16 @@
                 "fkg.d_5003_ledn_type.ledn_type_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "klasse_kode",
             "type": "integer",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 4,
             "_typname": "int4",
@@ -84,16 +82,16 @@
                 "fkg.d_5003_klasse.klasse_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "etableringstidspunkt",
             "type": "character varying(50)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 5,
             "_typname": "varchar",
@@ -104,16 +102,16 @@
             "_max_bytes": 200,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "start_dybde",
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 6,
             "_typname": "float8",
@@ -124,8 +122,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "start_dybde >= 0.1::double precision AND start_dybde <= 99.9::double precision"
@@ -134,8 +134,6 @@
         {
             "name": "slut_dybde",
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 7,
             "_typname": "float8",
@@ -146,8 +144,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "slut_dybde >= 0.1::double precision AND slut_dybde <= 99.9::double precision"
@@ -156,8 +156,6 @@
         {
             "name": "start_kote",
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 8,
             "_typname": "float8",
@@ -168,8 +166,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "start_kote >= '-10.0'::numeric::double precision AND start_kote <= 200.0::double precision"
@@ -178,8 +178,6 @@
         {
             "name": "slut_kote",
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 9,
             "_typname": "float8",
@@ -190,8 +188,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "slut_kote >= '-10.0'::numeric::double precision AND slut_kote <= 200.0::double precision"
@@ -200,8 +200,6 @@
         {
             "name": "kotesystem_kode",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 10,
             "_typname": "int4",
@@ -214,16 +212,16 @@
                 "fkg.d_basis_kotesystem.kotesystem_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "fald_promille",
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 11,
             "_typname": "float8",
@@ -234,8 +232,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "fald_promille >= 0.0::double precision AND fald_promille <= 1000.0::double precision"
@@ -244,8 +244,6 @@
         {
             "name": "diameter_mm",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 12,
             "_typname": "int4",
@@ -256,8 +254,10 @@
             "_max_bytes": 4,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "diameter_mm::double precision >= 1::double precision AND diameter_mm::double precision <= 999::double precision"
@@ -266,8 +266,6 @@
         {
             "name": "diameter_tommer",
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 13,
             "_typname": "float8",
@@ -278,8 +276,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "diameter_tommer >= 0.01::double precision AND diameter_tommer <= 39.99::double precision"
@@ -288,8 +288,6 @@
         {
             "name": "datakilde_kode",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 14,
             "_typname": "int4",
@@ -302,16 +300,16 @@
                 "fkg.d_basis_datakilde.datakilde_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "praecision_god",
             "type": "boolean",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 15,
             "_typname": "bool",
@@ -322,16 +320,16 @@
             "_max_bytes": 1,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "projektnr",
             "type": "character varying(25)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 16,
             "_typname": "varchar",
@@ -342,16 +340,16 @@
             "_max_bytes": 100,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "kommentar",
             "type": "character varying(25)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 17,
             "_typname": "varchar",
@@ -362,16 +360,16 @@
             "_max_bytes": 100,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "sagsnr",
             "type": "character varying(128)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 18,
             "_typname": "varchar",
@@ -382,16 +380,16 @@
             "_max_bytes": 512,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "link",
             "type": "character varying(1024)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 19,
             "_typname": "varchar",
@@ -402,16 +400,16 @@
             "_max_bytes": 4096,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "geometri",
             "type": "geometry(MultiLineString,25832)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 20,
             "_typname": "geometry",
@@ -422,8 +420,10 @@
             "_max_bytes": null,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": [
                 "gist"
             ],

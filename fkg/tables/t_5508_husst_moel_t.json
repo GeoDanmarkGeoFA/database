@@ -4,8 +4,6 @@
         {
             "name": "versions_id",
             "type": "uuid",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 1,
             "_typname": "uuid",
@@ -18,8 +16,10 @@
                 "fkg.generel.versions_id"
             ],
             "_restriction": null,
-            "_is_primary": true,
             "_is_unique": true,
+            "_is_primary": true,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "btree"
             ],
@@ -28,8 +28,6 @@
         {
             "name": "moelletype",
             "type": "character varying(50)",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 2,
             "_typname": "varchar",
@@ -40,16 +38,16 @@
             "_max_bytes": 200,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "hoejde",
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 3,
             "_typname": "float8",
@@ -60,8 +58,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "hoejde >= 0.1::double precision AND hoejde <= 49.9::double precision"
@@ -70,8 +70,6 @@
         {
             "name": "kapacitet",
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 4,
             "_typname": "float8",
@@ -82,8 +80,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "kapacitet >= 0.1::double precision AND kapacitet <= 6.0::double precision"
@@ -92,8 +92,6 @@
         {
             "name": "stoej_kode",
             "type": "integer",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 5,
             "_typname": "int4",
@@ -106,16 +104,16 @@
                 "fkg.d_5508_stoej.stoej_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "konsekvenszone",
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 6,
             "_typname": "float8",
@@ -126,8 +124,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "konsekvenszone >= 0.1::double precision AND konsekvenszone <= 999.9::double precision"
@@ -136,8 +136,6 @@
         {
             "name": "sagsnr",
             "type": "character varying(128)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 7,
             "_typname": "varchar",
@@ -148,16 +146,16 @@
             "_max_bytes": 512,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "vejkode",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 8,
             "_typname": "int4",
@@ -170,16 +168,16 @@
                 "fkg.d_vejnavn.vejkode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "husnr",
             "type": "character varying(4)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 9,
             "_typname": "varchar",
@@ -190,16 +188,16 @@
             "_max_bytes": 16,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "postnr",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 10,
             "_typname": "int4",
@@ -212,16 +210,16 @@
                 "fkg.d_basis_postnr.postnr"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "geometri",
             "type": "geometry(MultiPoint,25832)",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 11,
             "_typname": "geometry",
@@ -232,8 +230,10 @@
             "_max_bytes": null,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "gist"
             ],
@@ -244,8 +244,6 @@
         {
             "name": "cvf_vejkode",
             "type": "character varying(7)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 12,
             "_typname": "varchar",
@@ -256,16 +254,16 @@
             "_max_bytes": 28,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "adr_id",
             "type": "character varying(128)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 13,
             "_typname": "varchar",
@@ -276,8 +274,10 @@
             "_max_bytes": 512,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         }

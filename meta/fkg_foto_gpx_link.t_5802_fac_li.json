@@ -6,7 +6,7 @@
     "f_table_abstract": null,
     "f_table_title": "Friluftsliv faciliteter,  linjer (5802)",
     "pkey": "objekt_id",
-    "rel_type": null,
+    "rel_type": "VIEW",
     "coord_dimension": 2,
     "type": "MULTILINESTRING",
     "srid": 25832,
@@ -20,8 +20,6 @@
     "fields": {
         "temakode": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 1,
             "full_type": "integer",
@@ -32,16 +30,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "temanavn": {
             "type": "text",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 2,
             "full_type": "text",
@@ -52,16 +44,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "objekt_id": {
             "type": "uuid",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 3,
             "full_type": "uuid",
@@ -72,16 +58,10 @@
             "numeric_scale": null,
             "max_bytes": 16,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "versions_id": {
             "type": "uuid",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 4,
             "full_type": "uuid",
@@ -92,16 +72,10 @@
             "numeric_scale": null,
             "max_bytes": 16,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "systid_fra": {
             "type": "timestamp with time zone",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 5,
             "full_type": "timestamp with time zone",
@@ -112,16 +86,10 @@
             "numeric_scale": null,
             "max_bytes": 8,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "systid_til": {
             "type": "timestamp with time zone",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 6,
             "full_type": "timestamp with time zone",
@@ -132,16 +100,10 @@
             "numeric_scale": null,
             "max_bytes": 8,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "oprettet": {
             "type": "timestamp with time zone",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 7,
             "full_type": "timestamp with time zone",
@@ -152,16 +114,10 @@
             "numeric_scale": null,
             "max_bytes": 8,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "cvr_kode": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 8,
             "full_type": "integer",
@@ -733,16 +689,10 @@
                     "value": 56230718,
                     "alias": "Friluftsr\u00e5det"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "cvr_navn": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 9,
             "full_type": "character varying(128)",
@@ -753,16 +703,10 @@
             "numeric_scale": null,
             "max_bytes": 512,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "kommunekode": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 10,
             "full_type": "integer",
@@ -773,16 +717,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "bruger_id": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 11,
             "full_type": "character varying(128)",
@@ -793,16 +731,10 @@
             "numeric_scale": null,
             "max_bytes": 512,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "oprindkode": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 12,
             "full_type": "integer",
@@ -866,16 +798,10 @@
                     "value": 12,
                     "alias": "3D"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "oprindelse": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 13,
             "full_type": "character varying(35)",
@@ -886,16 +812,10 @@
             "numeric_scale": null,
             "max_bytes": 140,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "statuskode": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 14,
             "full_type": "integer",
@@ -927,16 +847,10 @@
                     "value": 4,
                     "alias": "Ikke g\u00e6ldende \/ Aflyst"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "status": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 15,
             "full_type": "character varying(30)",
@@ -947,16 +861,10 @@
             "numeric_scale": null,
             "max_bytes": 120,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "off_kode": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 16,
             "full_type": "integer",
@@ -980,16 +888,10 @@
                     "value": 3,
                     "alias": "Synlig for alle myndigheder, men ikke offentligheden"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "offentlig": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 17,
             "full_type": "character varying(60)",
@@ -1000,16 +902,10 @@
             "numeric_scale": null,
             "max_bytes": 240,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "noegle": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 18,
             "full_type": "character varying(128)",
@@ -1020,16 +916,10 @@
             "numeric_scale": null,
             "max_bytes": 512,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "note": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 19,
             "full_type": "character varying(254)",
@@ -1040,16 +930,10 @@
             "numeric_scale": null,
             "max_bytes": 1016,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "beliggenhedskommune": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 95,
             "full_type": "integer",
@@ -1060,16 +944,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "rute_ty_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 20,
             "full_type": "integer",
@@ -1145,16 +1023,10 @@
                     "value": 17,
                     "alias": "Sejlrute for lyst- og motor"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "rute_ty": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 21,
             "full_type": "character varying(30)",
@@ -1165,16 +1037,10 @@
             "numeric_scale": null,
             "max_bytes": 120,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "rute_uty_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 22,
             "full_type": "integer",
@@ -1254,16 +1120,10 @@
                     "value": 17,
                     "alias": "Natureventyr"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "rute_uty": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 23,
             "full_type": "character varying(30)",
@@ -1274,16 +1134,10 @@
             "numeric_scale": null,
             "max_bytes": 120,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "navn": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 24,
             "full_type": "character varying(254)",
@@ -1294,16 +1148,10 @@
             "numeric_scale": null,
             "max_bytes": 1016,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "navn_uk": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 26,
             "full_type": "character varying(255)",
@@ -1314,16 +1162,10 @@
             "numeric_scale": null,
             "max_bytes": 1020,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "navn_d": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 25,
             "full_type": "character varying(255)",
@@ -1334,16 +1176,10 @@
             "numeric_scale": null,
             "max_bytes": 1020,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "navndels": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 29,
             "full_type": "character varying(128)",
@@ -1354,16 +1190,10 @@
             "numeric_scale": null,
             "max_bytes": 512,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "straekn_nr": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 30,
             "full_type": "character varying(128)",
@@ -1374,16 +1204,10 @@
             "numeric_scale": null,
             "max_bytes": 512,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "afm_rute_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 31,
             "full_type": "integer",
@@ -1411,16 +1235,10 @@
                     "value": 3,
                     "alias": "Ukendt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "afm_rute": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 32,
             "full_type": "character varying(7)",
@@ -1431,16 +1249,10 @@
             "numeric_scale": null,
             "max_bytes": 28,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "laengde": {
             "type": "double precision",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 33,
             "full_type": "double precision",
@@ -1451,16 +1263,10 @@
             "numeric_scale": null,
             "max_bytes": 8,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "beskrivels": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 34,
             "full_type": "character varying(254)",
@@ -1471,16 +1277,10 @@
             "numeric_scale": null,
             "max_bytes": 1016,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "lang_beskr": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 35,
             "full_type": "character varying(3000)",
@@ -1491,16 +1291,10 @@
             "numeric_scale": null,
             "max_bytes": 12000,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "uk_k_beskr": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 36,
             "full_type": "character varying(254)",
@@ -1511,16 +1305,10 @@
             "numeric_scale": null,
             "max_bytes": 1016,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "uk_l_beskr": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 37,
             "full_type": "character varying(3000)",
@@ -1531,16 +1319,10 @@
             "numeric_scale": null,
             "max_bytes": 12000,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "d_k_beskr": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 38,
             "full_type": "character varying(254)",
@@ -1551,16 +1333,10 @@
             "numeric_scale": null,
             "max_bytes": 1016,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "d_l_beskr": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 39,
             "full_type": "character varying(3000)",
@@ -1571,16 +1347,10 @@
             "numeric_scale": null,
             "max_bytes": 12000,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "ansvar_org": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 40,
             "full_type": "character varying(128)",
@@ -1591,16 +1361,10 @@
             "numeric_scale": null,
             "max_bytes": 512,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "kontak_ved": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 41,
             "full_type": "character varying(128)",
@@ -1611,16 +1375,10 @@
             "numeric_scale": null,
             "max_bytes": 512,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "betaling_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 42,
             "full_type": "integer",
@@ -1648,16 +1406,10 @@
                     "value": 3,
                     "alias": "Ukendt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "betaling": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 43,
             "full_type": "character varying(7)",
@@ -1668,16 +1420,10 @@
             "numeric_scale": null,
             "max_bytes": 28,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "belaegn_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 44,
             "full_type": "integer",
@@ -1709,16 +1455,10 @@
                     "value": 9,
                     "alias": "Ukendt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "belaegn": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 45,
             "full_type": "character varying(30)",
@@ -1729,16 +1469,10 @@
             "numeric_scale": null,
             "max_bytes": 120,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "handicap_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 46,
             "full_type": "integer",
@@ -1774,16 +1508,10 @@
                     "value": 4,
                     "alias": "Handicapvenligt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "handikap": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 47,
             "full_type": "character varying(40)",
@@ -1794,16 +1522,10 @@
             "numeric_scale": null,
             "max_bytes": 160,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "saeson_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 48,
             "full_type": "integer",
@@ -1835,16 +1557,10 @@
                     "value": 2,
                     "alias": "S\u00e6son\u00e5bent"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "saeson": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 49,
             "full_type": "character varying(50)",
@@ -1855,16 +1571,10 @@
             "numeric_scale": null,
             "max_bytes": 200,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "saeson_sl": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 51,
             "full_type": "character varying(25)",
@@ -1875,16 +1585,10 @@
             "numeric_scale": null,
             "max_bytes": 100,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "saeson_st": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 50,
             "full_type": "character varying(25)",
@@ -1895,16 +1599,10 @@
             "numeric_scale": null,
             "max_bytes": 100,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "saeson_bem": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 52,
             "full_type": "character varying(254)",
@@ -1915,16 +1613,10 @@
             "numeric_scale": null,
             "max_bytes": 1016,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "ansva_v_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 53,
             "full_type": "integer",
@@ -1956,16 +1648,10 @@
                     "value": 9,
                     "alias": "Ukendt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "ansva_v": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 54,
             "full_type": "character varying(30)",
@@ -1976,16 +1662,10 @@
             "numeric_scale": null,
             "max_bytes": 120,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "startpkt_x": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 55,
             "full_type": "integer",
@@ -1996,16 +1676,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "startpkt_y": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 56,
             "full_type": "integer",
@@ -2016,16 +1690,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "slutpkt_x": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 57,
             "full_type": "integer",
@@ -2036,16 +1704,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "slutpkt_y": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 58,
             "full_type": "integer",
@@ -2056,16 +1718,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "svaerhed_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 59,
             "full_type": "integer",
@@ -2105,16 +1761,10 @@
                     "value": 9,
                     "alias": "Ukendt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "svaerhed": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 60,
             "full_type": "character varying(30)",
@@ -2125,16 +1775,10 @@
             "numeric_scale": null,
             "max_bytes": 120,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "obs": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 61,
             "full_type": "character varying(254)",
@@ -2145,16 +1789,10 @@
             "numeric_scale": null,
             "max_bytes": 1016,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "kategori_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 62,
             "full_type": "integer",
@@ -2190,16 +1828,10 @@
                     "value": 9,
                     "alias": "Ukendt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "kategori": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 63,
             "full_type": "character varying(30)",
@@ -2210,16 +1842,10 @@
             "numeric_scale": null,
             "max_bytes": 120,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "certifi_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 64,
             "full_type": "integer",
@@ -2291,16 +1917,10 @@
                     "value": 99,
                     "alias": "Ukendt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "certifi": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 65,
             "full_type": "integer",
@@ -2311,16 +1931,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "hierarki_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 66,
             "full_type": "integer",
@@ -2356,16 +1970,10 @@
                     "value": 9,
                     "alias": "Ukendt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "hierarki": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 67,
             "full_type": "character varying(30)",
@@ -2376,16 +1984,10 @@
             "numeric_scale": null,
             "max_bytes": 120,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "kvalitet_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 68,
             "full_type": "integer",
@@ -2396,16 +1998,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "kvalitet": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 69,
             "full_type": "character varying(35)",
@@ -2416,16 +2012,10 @@
             "numeric_scale": null,
             "max_bytes": 140,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "folder_k": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 70,
             "full_type": "integer",
@@ -2453,16 +2043,10 @@
                     "value": 3,
                     "alias": "Ukendt"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "folder": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 71,
             "full_type": "character varying(7)",
@@ -2473,16 +2057,10 @@
             "numeric_scale": null,
             "max_bytes": 28,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "folde_link": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 72,
             "full_type": "character varying(1024)",
@@ -2493,16 +2071,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "foldelink1": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 73,
             "full_type": "character varying(1024)",
@@ -2513,16 +2085,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "foldelink2": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 74,
             "full_type": "character varying(1024)",
@@ -2533,16 +2099,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "foldelink3": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 75,
             "full_type": "character varying(1024)",
@@ -2553,16 +2113,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "foto_link": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 76,
             "full_type": "character varying(1024)",
@@ -2573,16 +2127,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "foto_link1": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 77,
             "full_type": "character varying(1024)",
@@ -2593,16 +2141,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "foto_link2": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 78,
             "full_type": "character varying(1024)",
@@ -2613,16 +2155,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "foto_link3": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 79,
             "full_type": "character varying(1024)",
@@ -2633,16 +2169,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "geofafoto": {
             "type": "text",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 97,
             "full_type": "text",
@@ -2653,16 +2183,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "geofafoto1": {
             "type": "text",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 98,
             "full_type": "text",
@@ -2673,16 +2197,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "geofafoto2": {
             "type": "text",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 99,
             "full_type": "text",
@@ -2693,16 +2211,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "geofafoto3": {
             "type": "text",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 100,
             "full_type": "text",
@@ -2713,16 +2225,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "filmlink": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 80,
             "full_type": "character varying(1024)",
@@ -2733,16 +2239,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "filmlink1": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 81,
             "full_type": "character varying(1024)",
@@ -2753,16 +2253,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "filmlink2": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 82,
             "full_type": "character varying(1024)",
@@ -2773,16 +2267,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "filmlink3": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 83,
             "full_type": "character varying(1024)",
@@ -2793,16 +2281,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "gpx_link": {
             "type": "text",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 101,
             "full_type": "text",
@@ -2813,16 +2295,10 @@
             "numeric_scale": null,
             "max_bytes": 1073741824,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "vejkode": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 84,
             "full_type": "integer",
@@ -2833,16 +2309,10 @@
             "numeric_scale": 0,
             "max_bytes": 4,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "vejnavn": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 85,
             "full_type": "character varying(40)",
@@ -2853,16 +2323,10 @@
             "numeric_scale": null,
             "max_bytes": 160,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "cvf_vejkode": {
             "type": "character",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 86,
             "full_type": "character(7)",
@@ -2873,16 +2337,10 @@
             "numeric_scale": null,
             "max_bytes": null,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "husnr": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 87,
             "full_type": "character varying(4)",
@@ -2893,16 +2351,10 @@
             "numeric_scale": null,
             "max_bytes": 16,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "postnr": {
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 88,
             "full_type": "integer",
@@ -7274,16 +6726,10 @@
                     "value": 2800,
                     "alias": "2800"
                 }
-            ],
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            ]
         },
         "postnr_by": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 89,
             "full_type": "character varying(128)",
@@ -7294,16 +6740,10 @@
             "numeric_scale": null,
             "max_bytes": 512,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "adr_id": {
             "type": "uuid",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 90,
             "full_type": "uuid",
@@ -7314,16 +6754,10 @@
             "numeric_scale": null,
             "max_bytes": 16,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "link": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 91,
             "full_type": "character varying(1024)",
@@ -7334,16 +6768,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "link1": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 92,
             "full_type": "character varying(1024)",
@@ -7354,16 +6782,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "link2": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 93,
             "full_type": "character varying(1024)",
@@ -7374,16 +6796,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "link3": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 94,
             "full_type": "character varying(1024)",
@@ -7394,16 +6810,10 @@
             "numeric_scale": null,
             "max_bytes": 4096,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "tilgaeng_beskriv": {
             "type": "character varying",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 27,
             "full_type": "character varying(3000)",
@@ -7414,16 +6824,10 @@
             "numeric_scale": null,
             "max_bytes": 12000,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "tilgaeng_opl": {
             "type": "jsonb",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 28,
             "full_type": "jsonb",
@@ -7434,16 +6838,10 @@
             "numeric_scale": null,
             "max_bytes": null,
             "reference": [],
-            "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null
+            "restriction": null
         },
         "geometri": {
             "type": "geometry",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "num": 96,
             "full_type": "geometry(MultiLineString,25832)",
@@ -7455,10 +6853,6 @@
             "max_bytes": null,
             "reference": [],
             "restriction": null,
-            "is_primary": false,
-            "is_unique": false,
-            "index_method": null,
-            "checks": null,
             "geom_type": "MultiLineString",
             "srid": "25832"
         }

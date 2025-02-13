@@ -4,8 +4,6 @@
         {
             "name": "versions_id",
             "type": "uuid",
-            "is_nullable": false,
-            "default_value": null,
             "comment": "Unik versions-id databasen\u00f8gle",
             "_num": 1,
             "_typname": "uuid",
@@ -16,8 +14,10 @@
             "_max_bytes": 16,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": true,
             "_is_unique": true,
+            "_is_primary": true,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "btree"
             ],
@@ -26,8 +26,6 @@
         {
             "name": "objekt_id",
             "type": "uuid",
-            "is_nullable": false,
-            "default_value": null,
             "comment": "Entydig databasen\u00f8gle over tid",
             "_num": 2,
             "_typname": "uuid",
@@ -38,8 +36,10 @@
             "_max_bytes": 16,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "btree"
             ],
@@ -48,8 +48,6 @@
         {
             "name": "systid_fra",
             "type": "timestamp with time zone",
-            "is_nullable": false,
-            "default_value": null,
             "comment": "Start systemtid",
             "_num": 3,
             "_typname": "timestamptz",
@@ -60,16 +58,16 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "systid_til",
             "type": "timestamp with time zone",
-            "is_nullable": true,
-            "default_value": null,
             "comment": "Slut systemtid",
             "_num": 4,
             "_typname": "timestamptz",
@@ -80,8 +78,10 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": [
                 "btree"
             ],
@@ -90,8 +90,6 @@
         {
             "name": "oprettet",
             "type": "timestamp with time zone",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 5,
             "_typname": "timestamptz",
@@ -102,16 +100,16 @@
             "_max_bytes": 8,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "cvr_kode",
             "type": "integer",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 6,
             "_typname": "int4",
@@ -124,8 +122,10 @@
                 "fkg.d_basis_ansvarlig_myndighed.cvr_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "btree"
             ],
@@ -134,8 +134,6 @@
         {
             "name": "bruger_id",
             "type": "character varying(128)",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 7,
             "_typname": "varchar",
@@ -146,16 +144,16 @@
             "_max_bytes": 512,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "oprindkode",
             "type": "integer",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 8,
             "_typname": "int4",
@@ -168,16 +166,16 @@
                 "fkg.d_basis_oprindelse.oprindkode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "statuskode",
             "type": "integer",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 9,
             "_typname": "int4",
@@ -190,16 +188,16 @@
                 "fkg.d_basis_status.statuskode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "off_kode",
             "type": "integer",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 10,
             "_typname": "int4",
@@ -212,16 +210,16 @@
                 "fkg.d_basis_offentlig.off_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "noegle",
             "type": "character varying(128)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 11,
             "_typname": "varchar",
@@ -232,16 +230,16 @@
             "_max_bytes": 512,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "note",
             "type": "character varying(254)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 12,
             "_typname": "varchar",
@@ -252,8 +250,10 @@
             "_max_bytes": 1016,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         }

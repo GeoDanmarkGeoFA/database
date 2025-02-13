@@ -4,8 +4,6 @@
         {
             "name": "versions_id",
             "type": "uuid",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 1,
             "_typname": "uuid",
@@ -18,8 +16,10 @@
                 "fkg.generel.versions_id"
             ],
             "_restriction": null,
-            "_is_primary": true,
             "_is_unique": true,
+            "_is_primary": true,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "btree"
             ],
@@ -28,8 +28,6 @@
         {
             "name": "vinterklasse_kode",
             "type": "integer",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 2,
             "_typname": "int4",
@@ -42,16 +40,16 @@
                 "fkg.d_5600_vinterklasse.vinterklasse_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "adm_vejnr",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 3,
             "_typname": "int4",
@@ -62,8 +60,10 @@
             "_max_bytes": 4,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "adm_vejnr >= 1 AND adm_vejnr <= 9999999"
@@ -72,8 +72,6 @@
         {
             "name": "frakm",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 4,
             "_typname": "int4",
@@ -84,8 +82,10 @@
             "_max_bytes": 4,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "frakm >= 1 AND frakm <= 999"
@@ -94,8 +94,6 @@
         {
             "name": "fram",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 5,
             "_typname": "int4",
@@ -106,8 +104,10 @@
             "_max_bytes": 4,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "fram >= 1 AND fram <= 999"
@@ -116,8 +116,6 @@
         {
             "name": "tilkm",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 6,
             "_typname": "int4",
@@ -128,8 +126,10 @@
             "_max_bytes": 4,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "tilkm >= 1 AND tilkm <= 999"
@@ -138,8 +138,6 @@
         {
             "name": "tilm",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 7,
             "_typname": "int4",
@@ -150,8 +148,10 @@
             "_max_bytes": 4,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": [
                 "tilm >= 1 AND tilm <= 999"
@@ -160,8 +160,6 @@
         {
             "name": "sted_metode_kode",
             "type": "integer",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 8,
             "_typname": "int4",
@@ -174,16 +172,16 @@
                 "fkg.d_basis_sted_metode.sted_metode_kode"
             ],
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "sagsnr",
             "type": "character varying(128)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 9,
             "_typname": "varchar",
@@ -194,16 +192,16 @@
             "_max_bytes": 512,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "link",
             "type": "character varying(1024)",
-            "is_nullable": true,
-            "default_value": null,
             "comment": null,
             "_num": 10,
             "_typname": "varchar",
@@ -214,16 +212,16 @@
             "_max_bytes": 4096,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": true,
+            "default_value": true,
             "_index_method": null,
             "_checks": null
         },
         {
             "name": "geometri",
             "type": "geometry(MultiLineString,25832)",
-            "is_nullable": false,
-            "default_value": null,
             "comment": null,
             "_num": 11,
             "_typname": "geometry",
@@ -234,8 +232,10 @@
             "_max_bytes": null,
             "_reference": null,
             "_restriction": null,
-            "_is_primary": false,
             "_is_unique": false,
+            "_is_primary": false,
+            "is_nullable": false,
+            "default_value": true,
             "_index_method": [
                 "gist"
             ],
