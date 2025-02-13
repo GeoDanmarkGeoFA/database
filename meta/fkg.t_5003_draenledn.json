@@ -6,6 +6,7 @@
     "f_table_abstract": null,
     "f_table_title": "Dr\u00e6nledning (5003)",
     "pkey": "objekt_id",
+    "rel_type": null,
     "coord_dimension": 2,
     "type": "MULTILINESTRING",
     "srid": 25832,

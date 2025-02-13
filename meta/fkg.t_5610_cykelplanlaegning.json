@@ -6,6 +6,7 @@
     "f_table_abstract": null,
     "f_table_title": "Cykelplanl\u00e6gning (5610)",
     "pkey": "objekt_id",
+    "rel_type": null,
     "coord_dimension": 2,
     "type": "MULTILINESTRING",
     "srid": 25832,

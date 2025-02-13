@@ -6,6 +6,7 @@
     "f_table_abstract": null,
     "f_table_title": "Vejinventar (5606) ",
     "pkey": "objekt_id",
+    "rel_type": null,
     "coord_dimension": 2,
     "type": "MULTIPOINT",
     "srid": 25832,
