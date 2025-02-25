@@ -6,7 +6,7 @@
 <table border="1">
 <tr><th>Feltnavn</th><th>Feltnavn10</th><th>Formål</th><th>Datatype</th><th>Værdiområde</th><th>Obligatorisk/frit</th><th>Eksempel</th><th>Systemfelt</th></tr>
 
-{% for field in site.data.meta.fkgt_5107_art_invas_p.fields %}
+{% for field in site.data.meta.fkgt_5612_vinterserviceomraade.fields %}
 
 <tr>
 {% assign column = site.data.fkg.tables.t_5612_vinterserviceomraade_t.columns | where: "name",field[0] %}
