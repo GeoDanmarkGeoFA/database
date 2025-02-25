@@ -1,7 +1,7 @@
 ---
 ---
 <h1>Test</h1>
-{{ site.data.meta.fkgt_5107_art_invas_p.f_table_name }}
+{{ site.data.meta.fkgt_5612_vinterserviceomraade.f_table_name }}
 
 <table border="1">
 <tr><th>Feltnavn</th><th>Feltnavn10</th><th>Formål</th><th>Datatype</th><th>Værdiområde</th><th>Obligatorisk/frit</th><th>Eksempel</th><th>Systemfelt</th></tr>
@@ -9,7 +9,7 @@
 {% for field in site.data.meta.fkgt_5107_art_invas_p.fields %}
 
 <tr>
-{% assign column = site.data.fkg.tables.t_5107_art_invas_p_t.columns | where: "name",field[0] %}
+{% assign column = site.data.fkg.tables.t_5612_vinterserviceomraade_t.columns | where: "name",field[0] %}
 
 {% assign system = true %}
 {% if column[0].name == field[0] %}
