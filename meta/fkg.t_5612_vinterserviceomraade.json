@@ -933,7 +933,7 @@
         },
         "vinterserviceomraade_kode": {
             "type": "integer",
-            "comment": "Kode til angivelse af serviceomr\u00e5dets type.",
+            "comment": null,
             "num": 20,
             "full_type": "integer",
             "typname": "int4",
@@ -998,7 +998,7 @@
         },
         "vinterservice_nr": {
             "type": "character varying",
-            "comment": "Angiv en identifikation af serviceomr\u00e5det \u2013 entydigt indenfor kommunen \u2013  evt indledt med kommunenr, s\u00e5 det ogs\u00e5 er generelt entydigt.",
+            "comment": null,
             "num": 22,
             "full_type": "character varying(20)",
             "typname": "varchar",
@@ -1012,7 +1012,7 @@
         },
         "vinterservice_navn": {
             "type": "character varying",
-            "comment": "Angiv evt. et sigende navn for det sted, hvor vinterservicen skal udf\u00f8res.",
+            "comment": null,
             "num": 23,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -1026,7 +1026,7 @@
         },
         "rute_nr": {
             "type": "character varying",
-            "comment": "Angiv rute-nr, hvis du \u00f8nsker at knytte serviceomr\u00e5derne til en rute.  (hvilken vej skal mandskabsbilen k\u00f8re).  Registreringsvejledning: Hvis du \u00f8nsker at knytte vinterservicepunkter til  en rute skal du oprette ruten som vinterrute (geometritype linje) og  angive samme rute_nr her og i vinterrute.",
+            "comment": null,
             "num": 24,
             "full_type": "character varying(5)",
             "typname": "varchar",
@@ -1040,7 +1040,7 @@
         },
         "rute_navn": {
             "type": "character varying",
-            "comment": "Hvis du har knyttet serviceomr\u00e5det til en rute, kan du her v\u00e6lge at angive  rutens navn (anvend samme navn, som du anvendte ved rutens oprettelse).",
+            "comment": null,
             "num": 25,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -1054,7 +1054,7 @@
         },
         "vinterservice_beskrivelse": {
             "type": "character varying",
-            "comment": "Beskrivelse af opgaven \u2013 i tekstform. Tekstbeskrivelsen kan v\u00e6re en hj\u00e6lp  for de personer, der skal udf\u00f8re vintervedligeholdelsesopgaven p\u00e5 stedet.",
+            "comment": null,
             "num": 26,
             "full_type": "character varying(100)",
             "typname": "varchar",
@@ -1068,7 +1068,7 @@
         },
         "areal": {
             "type": "integer",
-            "comment": "Omtrentligt areal, der skal ryddes. Kan anvendes til vurdering af opgavens  omfang. Angives i kvm.",
+            "comment": null,
             "num": 27,
             "full_type": "integer",
             "typname": "int4",
@@ -1082,7 +1082,7 @@
         },
         "norm_tid": {
             "type": "integer",
-            "comment": "Normeret tid til vintervedligeholdelse af dette servicepunkt \u2013 pr. gang.  Angives i minutter. Kan alene, eller sammen med arealangivelse, bidrage  til vurdering af opgavens omfang.",
+            "comment": null,
             "num": 28,
             "full_type": "integer",
             "typname": "int4",
