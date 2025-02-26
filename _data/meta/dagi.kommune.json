@@ -19,7 +19,7 @@
     "fields": {
         "objekt_id": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 1,
             "full_type": "integer",
             "typname": "int4",

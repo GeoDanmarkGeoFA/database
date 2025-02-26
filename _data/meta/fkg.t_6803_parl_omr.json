@@ -19,7 +19,7 @@
     "fields": {
         "temakode": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 1,
             "full_type": "integer",
             "typname": "int4",
@@ -33,7 +33,7 @@
         },
         "temanavn": {
             "type": "text",
-            "comment": null,
+            "comment": "",
             "num": 2,
             "full_type": "text",
             "typname": "text",
@@ -47,7 +47,7 @@
         },
         "objekt_id": {
             "type": "uuid",
-            "comment": null,
+            "comment": "",
             "num": 3,
             "full_type": "uuid",
             "typname": "uuid",
@@ -61,7 +61,7 @@
         },
         "versions_id": {
             "type": "uuid",
-            "comment": null,
+            "comment": "",
             "num": 4,
             "full_type": "uuid",
             "typname": "uuid",
@@ -75,7 +75,7 @@
         },
         "systid_fra": {
             "type": "timestamp with time zone",
-            "comment": null,
+            "comment": "",
             "num": 5,
             "full_type": "timestamp with time zone",
             "typname": "timestamptz",
@@ -89,7 +89,7 @@
         },
         "systid_til": {
             "type": "timestamp with time zone",
-            "comment": null,
+            "comment": "",
             "num": 6,
             "full_type": "timestamp with time zone",
             "typname": "timestamptz",
@@ -103,7 +103,7 @@
         },
         "oprettet": {
             "type": "timestamp with time zone",
-            "comment": null,
+            "comment": "",
             "num": 7,
             "full_type": "timestamp with time zone",
             "typname": "timestamptz",
@@ -117,7 +117,7 @@
         },
         "cvr_kode": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 8,
             "full_type": "integer",
             "typname": "int4",
@@ -692,7 +692,7 @@
         },
         "cvr_navn": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 9,
             "full_type": "character varying(128)",
             "typname": "varchar",
@@ -706,7 +706,7 @@
         },
         "kommunekode": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 10,
             "full_type": "integer",
             "typname": "int4",
@@ -720,7 +720,7 @@
         },
         "bruger_id": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 11,
             "full_type": "character varying(128)",
             "typname": "varchar",
@@ -734,7 +734,7 @@
         },
         "oprindkode": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 12,
             "full_type": "integer",
             "typname": "int4",
@@ -801,7 +801,7 @@
         },
         "oprindelse": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 13,
             "full_type": "character varying(35)",
             "typname": "varchar",
@@ -815,7 +815,7 @@
         },
         "statuskode": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 14,
             "full_type": "integer",
             "typname": "int4",
@@ -850,7 +850,7 @@
         },
         "status": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 15,
             "full_type": "character varying(30)",
             "typname": "varchar",
@@ -864,7 +864,7 @@
         },
         "off_kode": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 16,
             "full_type": "integer",
             "typname": "int4",
@@ -891,7 +891,7 @@
         },
         "offentlig": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 17,
             "full_type": "character varying(60)",
             "typname": "varchar",
@@ -905,7 +905,7 @@
         },
         "noegle": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 18,
             "full_type": "character varying(128)",
             "typname": "varchar",
@@ -919,7 +919,7 @@
         },
         "note": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 19,
             "full_type": "character varying(254)",
             "typname": "varchar",
@@ -933,7 +933,7 @@
         },
         "pg_distrikt_kode": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 20,
             "full_type": "integer",
             "typname": "int4",
@@ -972,7 +972,7 @@
         },
         "pg_distrikt": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 21,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -986,7 +986,7 @@
         },
         "pg_fagentreprise_kode": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 22,
             "full_type": "integer",
             "typname": "int4",
@@ -1057,7 +1057,7 @@
         },
         "pg_fagentreprise": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 23,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -1071,7 +1071,7 @@
         },
         "pg_distrikt_nr": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 24,
             "full_type": "character varying(150)",
             "typname": "varchar",
@@ -1085,7 +1085,7 @@
         },
         "pg_distrikt_navn": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 25,
             "full_type": "character varying(150)",
             "typname": "varchar",
@@ -1099,7 +1099,7 @@
         },
         "ansvarlig": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 26,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -1113,7 +1113,7 @@
         },
         "konto_nr": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 27,
             "full_type": "character varying(150)",
             "typname": "varchar",
@@ -1127,7 +1127,7 @@
         },
         "cvr_opslag": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 28,
             "full_type": "character varying(8)",
             "typname": "varchar",
@@ -1141,7 +1141,7 @@
         },
         "udfoerer": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 29,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -1155,7 +1155,7 @@
         },
         "sagsnr": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 30,
             "full_type": "character varying(128)",
             "typname": "varchar",
@@ -1169,7 +1169,7 @@
         },
         "udfoerer_kontakt1": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 31,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -1183,7 +1183,7 @@
         },
         "udfoerer_kontakt2": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 32,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -1197,7 +1197,7 @@
         },
         "udbyder_kontakt": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 33,
             "full_type": "character varying(150)",
             "typname": "varchar",
@@ -1211,7 +1211,7 @@
         },
         "vejkode": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 34,
             "full_type": "integer",
             "typname": "int4",
@@ -1225,7 +1225,7 @@
         },
         "vejnavn": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 35,
             "full_type": "character varying(40)",
             "typname": "varchar",
@@ -1239,7 +1239,7 @@
         },
         "cvf_vejkode": {
             "type": "character",
-            "comment": null,
+            "comment": "",
             "num": 36,
             "full_type": "character(7)",
             "typname": "bpchar",
@@ -1253,7 +1253,7 @@
         },
         "husnr": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 37,
             "full_type": "character varying(4)",
             "typname": "varchar",
@@ -1267,7 +1267,7 @@
         },
         "postnr": {
             "type": "integer",
-            "comment": null,
+            "comment": "",
             "num": 38,
             "full_type": "integer",
             "typname": "int4",
@@ -5642,7 +5642,7 @@
         },
         "postnr_by": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 39,
             "full_type": "character varying(128)",
             "typname": "varchar",
@@ -5656,7 +5656,7 @@
         },
         "adr_id": {
             "type": "uuid",
-            "comment": null,
+            "comment": "",
             "num": 40,
             "full_type": "uuid",
             "typname": "uuid",
@@ -5670,7 +5670,7 @@
         },
         "link": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 41,
             "full_type": "character varying(1024)",
             "typname": "varchar",
@@ -5684,7 +5684,7 @@
         },
         "foto_link": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 42,
             "full_type": "character varying(1024)",
             "typname": "varchar",
@@ -5698,7 +5698,7 @@
         },
         "foto_link1": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 43,
             "full_type": "character varying(1024)",
             "typname": "varchar",
@@ -5712,7 +5712,7 @@
         },
         "foto_link2": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 44,
             "full_type": "character varying(1024)",
             "typname": "varchar",
@@ -5726,7 +5726,7 @@
         },
         "foto_link3": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 45,
             "full_type": "character varying(1024)",
             "typname": "varchar",
@@ -5740,7 +5740,7 @@
         },
         "geofafoto": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 46,
             "full_type": "character varying(1024)",
             "typname": "varchar",
@@ -5754,7 +5754,7 @@
         },
         "geofafoto1": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 47,
             "full_type": "character varying(1024)",
             "typname": "varchar",
@@ -5768,7 +5768,7 @@
         },
         "geofafoto2": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 48,
             "full_type": "character varying(1024)",
             "typname": "varchar",
@@ -5782,7 +5782,7 @@
         },
         "geofafoto3": {
             "type": "character varying",
-            "comment": null,
+            "comment": "",
             "num": 49,
             "full_type": "character varying(1024)",
             "typname": "varchar",
@@ -5796,7 +5796,7 @@
         },
         "geometri": {
             "type": "geometry",
-            "comment": null,
+            "comment": "",
             "num": 50,
             "full_type": "geometry(MultiPolygon,25832)",
             "typname": "geometry",
