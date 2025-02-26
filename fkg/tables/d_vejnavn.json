@@ -126,6 +126,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "d_vejnavn_pk",
@@ -153,7 +154,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_vejnavn\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_vejnavn\/indices",

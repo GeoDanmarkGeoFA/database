@@ -70,6 +70,7 @@
             "_srid": "25832"
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_6113_besk_nat_b_pk",
@@ -108,7 +109,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_6113_besk_nat_b_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_6113_besk_nat_b_t\/indices",

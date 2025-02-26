@@ -280,6 +280,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5710_born_skole_dis_pk",
@@ -361,7 +362,6 @@
             "check": "udd_delomr_nr >= 1 AND udd_delomr_nr <= 999999"
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5710_born_skole_dis_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5710_born_skole_dis_t\/indices",

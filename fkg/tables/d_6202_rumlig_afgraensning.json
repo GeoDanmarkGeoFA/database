@@ -84,6 +84,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "d_6202_rumlig_afgraensning_pk",
@@ -103,7 +104,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_6202_rumlig_afgraensning\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_6202_rumlig_afgraensning\/indices",

@@ -174,6 +174,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5706_havn_are_pk",
@@ -228,7 +229,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5706_havn_are_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5706_havn_are_t\/indices",

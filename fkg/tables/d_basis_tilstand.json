@@ -84,6 +84,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "d_basis_tilstand_pk",
@@ -103,7 +104,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_basis_tilstand\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_basis_tilstand\/indices",

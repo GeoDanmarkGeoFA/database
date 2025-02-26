@@ -256,6 +256,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_6102_redn_vej_t_gist",
@@ -327,7 +328,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_6102_redn_vej_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_6102_redn_vej_t\/indices",

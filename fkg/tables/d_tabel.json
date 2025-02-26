@@ -112,6 +112,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "d_tabel_pk",
@@ -177,7 +178,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_tabel\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_tabel\/indices",

@@ -454,6 +454,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5200_aff_prod_udbr_pk",
@@ -570,7 +571,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5200_aff_prod_udbr_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5200_aff_prod_udbr_t\/indices",

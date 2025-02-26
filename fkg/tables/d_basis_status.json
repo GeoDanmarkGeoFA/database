@@ -64,6 +64,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "d_basis_status_pk",
@@ -83,7 +84,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_basis_status\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_basis_status\/indices",

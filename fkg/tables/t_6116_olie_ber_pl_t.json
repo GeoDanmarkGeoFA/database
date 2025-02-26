@@ -198,6 +198,7 @@
             "_srid": "25832"
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_6116_olie_ber_pl_pk",
@@ -274,7 +275,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_6116_olie_ber_pl_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_6116_olie_ber_pl_t\/indices",
