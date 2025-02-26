@@ -386,6 +386,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "_5610_cykelplanlaegning_pk",
@@ -512,7 +513,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5610_cykelplanlaegning_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5610_cykelplanlaegning_t\/indices",

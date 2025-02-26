@@ -258,6 +258,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "generel_cvr_kode_index",
@@ -345,7 +346,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/generel\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/generel\/indices",

@@ -132,6 +132,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5701_lok_omr_pk",
@@ -181,7 +182,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5701_lok_omr_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5701_lok_omr_t\/indices",

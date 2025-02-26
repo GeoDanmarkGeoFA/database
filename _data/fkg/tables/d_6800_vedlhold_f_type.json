@@ -104,6 +104,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "d_6800_vedlhold_f_type_pk",
@@ -123,7 +124,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_6800_vedlhold_f_type\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_6800_vedlhold_f_type\/indices",

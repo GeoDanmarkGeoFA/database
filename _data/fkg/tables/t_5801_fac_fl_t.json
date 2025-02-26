@@ -1162,6 +1162,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5801_fac_fl_pk",
@@ -1358,7 +1359,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5801_fac_fl_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5801_fac_fl_t\/indices",

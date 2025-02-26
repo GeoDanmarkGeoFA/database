@@ -630,6 +630,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_6107_forholds_pk",
@@ -754,7 +755,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_6107_forholds_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_6107_forholds_t\/indices",

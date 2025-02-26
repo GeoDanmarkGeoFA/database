@@ -154,6 +154,7 @@
             "_srid": "25832"
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_6004_vandv_fs_pk",
@@ -214,7 +215,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_6004_vandv_fs_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_6004_vandv_fs_t\/indices",

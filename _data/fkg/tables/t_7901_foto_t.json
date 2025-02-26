@@ -110,6 +110,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_7901_foto_pk",
@@ -148,7 +149,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_7901_foto_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_7901_foto_t\/indices",

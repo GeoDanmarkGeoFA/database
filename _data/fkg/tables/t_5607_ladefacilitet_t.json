@@ -823,6 +823,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5607_ladefacilitet_pk",
@@ -935,7 +936,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5607_ladefacilitet_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5607_ladefacilitet_t\/indices",

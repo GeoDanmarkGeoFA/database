@@ -84,6 +84,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "d_6802_tilsynstrae_pk",
@@ -103,7 +104,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_6802_tilsynstrae\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_6802_tilsynstrae\/indices",

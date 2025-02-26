@@ -84,6 +84,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "d_5802_svaerhed_pk",
@@ -103,7 +104,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_5802_svaerhed\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_5802_svaerhed\/indices",

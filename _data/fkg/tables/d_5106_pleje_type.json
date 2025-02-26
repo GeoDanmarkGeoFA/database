@@ -104,6 +104,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "pleje_type_kode_pk",
@@ -123,7 +124,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_5106_pleje_type\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_5106_pleje_type\/indices",

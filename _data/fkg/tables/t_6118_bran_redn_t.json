@@ -256,6 +256,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_6118_bran_redn_pk",
@@ -327,7 +328,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_6118_bran_redn_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_6118_bran_redn_t\/indices",

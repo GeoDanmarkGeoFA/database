@@ -177,6 +177,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_7900_fotoforbindelse_pk",
@@ -247,7 +248,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_7900_fotoforbindelse_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_7900_fotoforbindelse_t\/indices",

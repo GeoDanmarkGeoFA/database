@@ -914,6 +914,7 @@
             "_srid": "25832"
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_6802_parl_pkt_pk",
@@ -1116,7 +1117,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_6802_parl_pkt_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_6802_parl_pkt_t\/indices",

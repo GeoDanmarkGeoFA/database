@@ -86,6 +86,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "temagruppe_pk",
@@ -120,7 +121,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_temagruppe\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_temagruppe\/indices",

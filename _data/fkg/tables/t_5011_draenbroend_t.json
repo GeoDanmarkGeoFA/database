@@ -344,6 +344,7 @@
             "_srid": "25832"
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5011_draenbroend_pk",
@@ -435,7 +436,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5011_draenbroend_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5011_draenbroend_t\/indices",

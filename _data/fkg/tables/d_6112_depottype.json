@@ -84,6 +84,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "d_6112_depottype_pk",
@@ -103,7 +104,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/d_6112_depottype\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/d_6112_depottype\/indices",

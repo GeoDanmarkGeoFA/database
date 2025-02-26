@@ -234,6 +234,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_6108_moedepl_pk",
@@ -294,7 +295,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_6108_moedepl_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_6108_moedepl_t\/indices",

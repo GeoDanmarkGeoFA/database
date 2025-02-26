@@ -578,6 +578,7 @@
             "_srid": "25832"
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_6803_parl_omr_pk",
@@ -660,7 +661,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_6803_parl_omr_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_6803_parl_omr_t\/indices",

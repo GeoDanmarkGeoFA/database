@@ -238,6 +238,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5401_genbr_st_pk",
@@ -314,7 +315,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5401_genbr_st_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5401_genbr_st_t\/indices",

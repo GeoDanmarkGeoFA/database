@@ -298,6 +298,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5700_grundej_pk",
@@ -374,7 +375,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5700_grundej_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5700_grundej_t\/indices",

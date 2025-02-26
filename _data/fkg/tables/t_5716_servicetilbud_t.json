@@ -238,6 +238,7 @@
             "_checks": null
         }
     ],
+    "comment": null,
     "indices": [
         {
             "name": "t_5716_servicetilbud_pk",
@@ -320,7 +321,6 @@
             ]
         }
     ],
-    "comment": null,
     "links": {
         "columns": "\/api\/v4\/schemas\/fkg\/tables\/t_5716_servicetilbud_t\/columns",
         "indices": "\/api\/v4\/schemas\/fkg\/tables\/t_5716_servicetilbud_t\/indices",
