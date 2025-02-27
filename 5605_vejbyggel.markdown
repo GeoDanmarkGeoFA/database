@@ -14,17 +14,6 @@
 {% assign tableKey = "t_" | append: theme | append: "_t" %}
 {% assign table = site.data.fkg.tables[tableKey] %}
 
-
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
--->
-</head>
-<body>
-
 <h1>{{ theme }}</h1>
 
 <h2>Generelle felter</h2>
@@ -42,7 +31,7 @@
     </thead>
     <tbody>
     {% for column in generel.columns %}
-        <tr {% if column.name == "versions_id" or column.name == "objekt_id" or column.name == "systid_fra" or column.name == "systid_til" or column.name == "oprettet" %} class="table-danger" {% endif %}>
+        <tr {% if column.name == "versions_id" or column.name == "objekt_id" or column.name == "systid_fra" or column.name == "systid_til" or column.name == "oprettet" %} style="background-color: pink" {% endif %}>
             {% assign checks = column._checks[0] %}
             {%- assign allow_null = column.is_nullable %}
             {% if column.is_nullable %}
@@ -88,7 +77,7 @@
     </thead>
     <tbody>
     {% for column in table.columns %}
-        <tr {% if column.name == "versions_id" %} class="table-danger" {% endif %}>
+        <tr {% if column.name == "versions_id" %} style="background-color: pink" {% endif %}>
             {% assign checks = column._checks[0] %}
             {% assign comment = meta.fields[column.name].comment %}
 
@@ -118,7 +107,5 @@
     {% endfor %}
     </tbody>
 </table>
-</body>
-</html>
 
 
