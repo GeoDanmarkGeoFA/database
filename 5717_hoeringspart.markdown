@@ -87,6 +87,12 @@
                 {% assign must = true %}
             {% endif %}
 
+            {% if column._short_name %}
+                {% assign short = column._short_name %}
+            {% else %}
+                {% assign short = column.name %}
+            {% endif %}
+
             {% if meta.fields[column.name].restriction != null %}
                 {% assign rs = meta.fields[column.name].restriction %}
                 {% capture restrictions %}
@@ -98,7 +104,7 @@
             {% endif %}
 
             <td>{{ column.name }}</td>
-            <td>10 tegn</td>
+            <td>{{ short }}</td>
             <td>{{ comment }}</td>
             <td>{{ column.type }}</td>
             <td>{{ restrictions }}{{ checks }}</td>
