@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "pg_distrikt_kode",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "pg_distr_k"
         },
         {
             "name": "pg_fagentreprise_kode",
@@ -67,7 +69,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "pg_fagen_k"
         },
         {
             "name": "pg_distrikt_nr",
@@ -87,7 +90,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "pg_dist_nr"
         },
         {
             "name": "pg_distrikt_navn",
@@ -107,7 +111,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "pg_dist_nv"
         },
         {
             "name": "ansvarlig",
@@ -127,7 +132,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "ansvarlig"
         },
         {
             "name": "konto_nr",
@@ -147,7 +153,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "konto_nr"
         },
         {
             "name": "cvr_opslag",
@@ -167,7 +174,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "cvr_opslag"
         },
         {
             "name": "udfoerer",
@@ -187,7 +195,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "udfoerer"
         },
         {
             "name": "sagsnr",
@@ -207,7 +216,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "sagsnr"
         },
         {
             "name": "udfoerer_kontakt1",
@@ -227,7 +237,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "udf_kont_1"
         },
         {
             "name": "udfoerer_kontakt2",
@@ -247,7 +258,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "udf_kont_2"
         },
         {
             "name": "udbyder_kontakt",
@@ -267,7 +279,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "udbyd_kont"
         },
         {
             "name": "vejkode",
@@ -289,7 +302,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "vejkode"
         },
         {
             "name": "cvf_vejkode",
@@ -309,7 +323,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "cvf_vejkode"
         },
         {
             "name": "husnr",
@@ -329,7 +344,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "husnr"
         },
         {
             "name": "postnr",
@@ -351,7 +367,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "postnr"
         },
         {
             "name": "adr_id",
@@ -371,7 +388,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "adr_id"
         },
         {
             "name": "link",
@@ -391,7 +409,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "foto_link",
@@ -411,7 +430,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link"
         },
         {
             "name": "foto_link1",
@@ -431,7 +451,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link1"
         },
         {
             "name": "foto_link2",
@@ -451,7 +472,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link2"
         },
         {
             "name": "foto_link3",
@@ -471,7 +493,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link3"
         },
         {
             "name": "geofafoto",
@@ -491,7 +514,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto"
         },
         {
             "name": "geofafoto1",
@@ -511,7 +535,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto1"
         },
         {
             "name": "geofafoto2",
@@ -531,7 +556,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto2"
         },
         {
             "name": "geofafoto3",
@@ -551,7 +577,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto3"
         },
         {
             "name": "geometri",
@@ -575,7 +602,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         }
     ],
     "comment": null,

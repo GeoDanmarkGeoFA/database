@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vinterklasse_kode",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "vi_klas_k"
         },
         {
             "name": "adm_vejnr",
@@ -67,7 +69,8 @@
             "_index_method": null,
             "_checks": [
                 "adm_vejnr >= 1 AND adm_vejnr <= 9999999"
-            ]
+            ],
+            "_short_name": "adm_vejnr"
         },
         {
             "name": "frakm",
@@ -89,7 +92,8 @@
             "_index_method": null,
             "_checks": [
                 "frakm >= 1 AND frakm <= 999"
-            ]
+            ],
+            "_short_name": "frakm"
         },
         {
             "name": "fram",
@@ -111,7 +115,8 @@
             "_index_method": null,
             "_checks": [
                 "fram >= 1 AND fram <= 999"
-            ]
+            ],
+            "_short_name": "fram"
         },
         {
             "name": "tilkm",
@@ -133,7 +138,8 @@
             "_index_method": null,
             "_checks": [
                 "tilkm >= 1 AND tilkm <= 999"
-            ]
+            ],
+            "_short_name": "tilkm"
         },
         {
             "name": "tilm",
@@ -155,7 +161,8 @@
             "_index_method": null,
             "_checks": [
                 "tilm >= 1 AND tilm <= 999"
-            ]
+            ],
+            "_short_name": "tilm"
         },
         {
             "name": "sted_metode_kode",
@@ -177,7 +184,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "sted_met_k"
         },
         {
             "name": "sagsnr",
@@ -197,7 +205,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "sagsnr"
         },
         {
             "name": "link",
@@ -217,7 +226,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "geometri",
@@ -241,7 +251,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiLineString",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         }
     ],
     "comment": null,

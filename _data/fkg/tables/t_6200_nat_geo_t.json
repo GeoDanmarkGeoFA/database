@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "data_oprindelse",
@@ -43,7 +44,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "omraade_nr",
@@ -65,7 +67,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geologi_kode",
@@ -87,7 +90,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geo_ref",
@@ -107,7 +111,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "jordtype_kode",
@@ -129,7 +134,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "terraen_kode",
@@ -151,7 +157,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "terraen_ref",
@@ -171,7 +178,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "kompleksitet_kode",
@@ -193,7 +201,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vandelement",
@@ -213,7 +222,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "farvandsomraade",
@@ -233,7 +243,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "strandbred",
@@ -253,7 +264,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "begrund_afgraensning",
@@ -273,7 +285,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "omr_sammenhaeng",
@@ -293,7 +306,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "farvand_strand_ref",
@@ -313,7 +327,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "naturgeo_beskrivelse",
@@ -333,7 +348,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "link",
@@ -353,7 +369,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -377,7 +394,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,

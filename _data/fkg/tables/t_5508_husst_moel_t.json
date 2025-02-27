@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "moelletype",
@@ -43,7 +44,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "hoejde",
@@ -65,7 +67,8 @@
             "_index_method": null,
             "_checks": [
                 "hoejde >= 0.1::double precision AND hoejde <= 49.9::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "kapacitet",
@@ -87,7 +90,8 @@
             "_index_method": null,
             "_checks": [
                 "kapacitet >= 0.1::double precision AND kapacitet <= 6.0::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "stoej_kode",
@@ -109,7 +113,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "konsekvenszone",
@@ -131,7 +136,8 @@
             "_index_method": null,
             "_checks": [
                 "konsekvenszone >= 0.1::double precision AND konsekvenszone <= 999.9::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "sagsnr",
@@ -151,7 +157,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vejkode",
@@ -173,7 +180,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "husnr",
@@ -193,7 +201,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "postnr",
@@ -215,7 +224,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -239,7 +249,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPoint",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         },
         {
             "name": "cvf_vejkode",
@@ -259,7 +270,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "adr_id",
@@ -279,7 +291,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         }
     ],
     "comment": null,

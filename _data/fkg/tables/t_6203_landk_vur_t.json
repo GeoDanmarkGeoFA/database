@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "omraade_nr",
@@ -45,7 +46,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "delomraade_nr",
@@ -65,7 +67,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "karakterstyrke_kode",
@@ -87,7 +90,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "karakterstyrke_notat",
@@ -107,7 +111,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "visuel_notat",
@@ -127,7 +132,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "tilstand_kode",
@@ -149,7 +155,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "tilstand_notat",
@@ -169,7 +176,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "udvikling",
@@ -189,7 +197,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "saarbarhed_kode",
@@ -211,7 +220,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "saarbarhed_notat",
@@ -231,7 +241,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "tiltag",
@@ -251,7 +262,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "link",
@@ -271,7 +283,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -295,7 +308,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,

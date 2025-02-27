@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "id_cykelknudepunktsstraekning",
@@ -43,7 +44,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "id_cykelks"
         },
         {
             "name": "beliggenhedskommune",
@@ -63,7 +65,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "belig_kom"
         },
         {
             "name": "planstatus_kode",
@@ -85,7 +88,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "planstat_k"
         },
         {
             "name": "length",
@@ -105,7 +109,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "length"
         },
         {
             "name": "privatenot",
@@ -125,7 +130,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "privatenot"
         },
         {
             "name": "surfacenot",
@@ -145,7 +151,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "surfacenot"
         },
         {
             "name": "onewaynot",
@@ -165,7 +172,8 @@
             "is_nullable": false,
             "default_value": false,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "onewaynot"
         },
         {
             "name": "link",
@@ -185,7 +193,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "geometri",
@@ -209,7 +218,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiLineString",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         }
     ],
     "comment": null,

@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "fs_cvr",
@@ -45,7 +46,8 @@
             "_index_method": null,
             "_checks": [
                 "fs_cvr >= 10000000 AND fs_cvr <= 99999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "fs_navn",
@@ -65,7 +67,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "dybde",
@@ -87,7 +90,8 @@
             "_index_method": null,
             "_checks": [
                 "dybde >= 0.1::double precision AND dybde <= 9.9::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "aar_i_jord",
@@ -109,7 +113,8 @@
             "_index_method": null,
             "_checks": [
                 "aar_i_jord >= 1900 AND aar_i_jord <= 2999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "antal_kabler",
@@ -131,7 +136,8 @@
             "_index_method": null,
             "_checks": [
                 "antal_kabler >= 1 AND antal_kabler <= 99999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "link",
@@ -151,7 +157,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -175,7 +182,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiLineString",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,

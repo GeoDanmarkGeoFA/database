@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "risikotype_kode",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "cvr_risi_virk",
@@ -67,7 +69,8 @@
             "_index_method": null,
             "_checks": [
                 "cvr_risi_virk >= 10000000 AND cvr_risi_virk <= 99999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "kontakt_tlf",
@@ -89,7 +92,8 @@
             "_index_method": null,
             "_checks": [
                 "kontakt_tlf >= 11111111 AND kontakt_tlf <= 99999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "brandhaem_kode",
@@ -111,7 +115,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "link",
@@ -131,7 +136,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -155,7 +161,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,

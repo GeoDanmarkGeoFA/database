@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "sua_kode",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "arrangement",
@@ -65,7 +67,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "forsamlingstelt_kode",
@@ -87,7 +90,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "cirkustelt_kode",
@@ -109,7 +113,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "campingomraade_kode",
@@ -131,7 +136,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "salgsomraade_kode",
@@ -153,7 +159,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "arrangoer",
@@ -173,7 +180,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "adr_i_tekst",
@@ -193,7 +201,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "suppl_sted_beskrivelse",
@@ -213,7 +222,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "sua_person",
@@ -233,7 +243,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "sua_tlfnr",
@@ -255,7 +266,8 @@
             "_index_method": null,
             "_checks": [
                 "sua_tlfnr >= 10000000 AND sua_tlfnr <= 99999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "antal_personer",
@@ -277,7 +289,8 @@
             "_index_method": null,
             "_checks": [
                 "antal_personer >= 0 AND antal_personer <= 999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "vejkode",
@@ -299,7 +312,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "cvf_vejkode",
@@ -319,7 +333,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "husnr",
@@ -339,7 +354,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "postnr",
@@ -361,7 +377,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "gyldig_fra",
@@ -381,7 +398,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "gyldig_til",
@@ -401,7 +419,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "link",
@@ -421,7 +440,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -445,7 +465,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         },
         {
             "name": "adr_id",
@@ -465,7 +486,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         }
     ],
     "comment": null,

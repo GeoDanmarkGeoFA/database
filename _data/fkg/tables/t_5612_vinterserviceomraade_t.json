@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vinterserviceomraade_kode",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "v_servi_k"
         },
         {
             "name": "vinterservice_nr",
@@ -65,7 +67,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "v_servi"
         },
         {
             "name": "vinterservice_navn",
@@ -85,7 +88,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "v_servi_na"
         },
         {
             "name": "rute_nr",
@@ -105,7 +109,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "rute_nr"
         },
         {
             "name": "rute_navn",
@@ -125,7 +130,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "rute_na"
         },
         {
             "name": "vinterservice_beskrivelse",
@@ -145,7 +151,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "vinter_besk"
         },
         {
             "name": "areal",
@@ -167,7 +174,8 @@
             "_index_method": null,
             "_checks": [
                 "areal >= 1 AND areal <= 5000"
-            ]
+            ],
+            "_short_name": "areal"
         },
         {
             "name": "norm_tid",
@@ -189,7 +197,8 @@
             "_index_method": null,
             "_checks": [
                 "norm_tid >= 1 AND norm_tid <= 5000"
-            ]
+            ],
+            "_short_name": "norm_tid"
         },
         {
             "name": "link",
@@ -209,7 +218,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "geometri",
@@ -233,7 +243,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         }
     ],
     "comment": null,

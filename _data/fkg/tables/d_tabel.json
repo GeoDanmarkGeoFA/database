@@ -21,7 +21,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "tema_navn",
@@ -43,7 +44,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geo",
@@ -65,7 +67,8 @@
             "_index_method": null,
             "_checks": [
                 "geo = ANY (ARRAY['P'::bpchar, 'L'::bpchar, 'F'::bpchar]"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "udvekslingsnavn",
@@ -87,7 +90,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "temagruppe_id",
@@ -109,7 +113,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         }
     ],
     "comment": null,

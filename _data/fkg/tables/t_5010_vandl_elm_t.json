@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "element_nr",
@@ -43,7 +44,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "element_kode",
@@ -65,7 +67,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "lokalitet",
@@ -85,7 +88,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vstation",
@@ -107,7 +111,8 @@
             "_index_method": null,
             "_checks": [
                 "vstation >= 0.0::double precision AND vstation <= 200000::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "vandloebsystem",
@@ -127,7 +132,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "anlagt_aar",
@@ -150,7 +156,8 @@
             "_checks": [
                 "anlagt_aar >= 1800 AND anlagt_aar <= 2999",
                 "anlagt_aar >= 1800 AND anlagt_aar <= 2999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "saneret_aar",
@@ -170,7 +177,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "tilstand_kode",
@@ -192,7 +200,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "broend_data",
@@ -212,7 +221,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "toemningsfrekvens",
@@ -232,7 +242,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "adgangsforhold",
@@ -252,7 +263,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -276,7 +288,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPoint",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,

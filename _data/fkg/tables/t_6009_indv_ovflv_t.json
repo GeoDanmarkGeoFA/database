@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "indv_maengde_aar",
@@ -43,7 +44,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "indv_kapacitet",
@@ -65,7 +67,8 @@
             "_index_method": null,
             "_checks": [
                 "indv_kapacitet >= 0.01::double precision AND indv_kapacitet <= 99999.99::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "indvinder_navn",
@@ -85,7 +88,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "indvinder_kontakt",
@@ -105,7 +109,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "link",
@@ -125,7 +130,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -149,7 +155,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPoint",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,

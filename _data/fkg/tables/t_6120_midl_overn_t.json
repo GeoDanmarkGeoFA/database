@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "institutionsnavn",
@@ -43,7 +44,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "antal_personer",
@@ -65,7 +67,8 @@
             "_index_method": null,
             "_checks": [
                 "antal_personer >= 10 AND antal_personer <= 1000"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "mid_ov_person",
@@ -85,7 +88,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "mid_ov_tlfnr",
@@ -107,7 +111,8 @@
             "_index_method": null,
             "_checks": [
                 "mid_ov_tlfnr >= 10000000 AND mid_ov_tlfnr <= 99999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "fast_vaagen_vagt_kode",
@@ -129,7 +134,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vejkode",
@@ -151,7 +157,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "cvf_vejkode",
@@ -171,7 +178,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "husnr",
@@ -191,7 +199,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "postnr",
@@ -213,7 +222,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "gyldig_fra",
@@ -233,7 +243,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "gyldig_til",
@@ -253,7 +264,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "link",
@@ -273,7 +285,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -297,7 +310,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPoint",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         },
         {
             "name": "adr_id",
@@ -317,7 +331,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         }
     ],
     "comment": null,

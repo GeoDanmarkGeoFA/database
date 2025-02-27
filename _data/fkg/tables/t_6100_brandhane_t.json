@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "brandhane_id",
@@ -45,7 +46,8 @@
             "_index_method": null,
             "_checks": [
                 "brandhane_id >= 1 AND brandhane_id <= 99999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "brandhane_type_kode",
@@ -67,7 +69,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "modeltype",
@@ -87,7 +90,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "ydelse",
@@ -109,7 +113,8 @@
             "_index_method": null,
             "_checks": [
                 "ydelse >= 1 AND ydelse <= 9999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "senest_maalte_ydelse",
@@ -131,7 +136,8 @@
             "_index_method": null,
             "_checks": [
                 "senest_maalte_ydelse >= 1 AND senest_maalte_ydelse <= 9999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "placering_kode",
@@ -153,7 +159,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "lokalitet",
@@ -173,7 +180,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vejkode",
@@ -195,7 +203,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "cvf_vejkode",
@@ -215,7 +224,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "husnr",
@@ -235,7 +245,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "postnr",
@@ -257,7 +268,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "funktionsstatus_kode",
@@ -279,7 +291,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "aktiv_kode",
@@ -301,7 +314,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "senest_tilsyn",
@@ -323,7 +337,8 @@
             "_index_method": null,
             "_checks": [
                 "senest_tilsyn >= '2006-12-31'::date AND senest_tilsyn <= '2999-12-31'::date"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "link",
@@ -343,7 +358,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -367,7 +383,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPoint",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         },
         {
             "name": "adr_id",
@@ -387,7 +404,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         }
     ],
     "comment": null,

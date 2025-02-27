@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "regulerings_type_kode",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "regul_ty_k"
         },
         {
             "name": "tilladt_periode_bil",
@@ -65,7 +67,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "tillad_bil"
         },
         {
             "name": "tilladt_periode_cykel",
@@ -85,7 +88,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "tillad_cyk"
         },
         {
             "name": "tilladt_periode_varekoersel",
@@ -105,7 +109,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "tillad_var"
         },
         {
             "name": "cvf_adm_vejnr",
@@ -127,7 +132,8 @@
             "_index_method": null,
             "_checks": [
                 "cvf_adm_vejnr >= 0 AND cvf_adm_vejnr <= 9999999"
-            ]
+            ],
+            "_short_name": "adm_vejnr"
         },
         {
             "name": "frakm",
@@ -149,7 +155,8 @@
             "_index_method": null,
             "_checks": [
                 "frakm >= 0 AND frakm <= 999"
-            ]
+            ],
+            "_short_name": "frakm"
         },
         {
             "name": "fram",
@@ -171,7 +178,8 @@
             "_index_method": null,
             "_checks": [
                 "fram >= 0 AND fram <= 999"
-            ]
+            ],
+            "_short_name": "fram"
         },
         {
             "name": "tilkm",
@@ -193,7 +201,8 @@
             "_index_method": null,
             "_checks": [
                 "tilkm >= 0 AND tilkm <= 999"
-            ]
+            ],
+            "_short_name": "tilkm"
         },
         {
             "name": "tilm",
@@ -215,7 +224,8 @@
             "_index_method": null,
             "_checks": [
                 "tilm >= 0 AND tilm <= 999"
-            ]
+            ],
+            "_short_name": "tilm"
         },
         {
             "name": "sted_metode_kode",
@@ -237,7 +247,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "sted_met_k"
         },
         {
             "name": "link",
@@ -257,7 +268,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "geometri",
@@ -281,7 +293,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiLineString",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         }
     ],
     "comment": null,

@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "fkg_tema",
@@ -43,7 +44,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "foto_objek",
@@ -65,7 +67,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "foto_lokat",
@@ -85,7 +88,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "foto_navn",
@@ -105,7 +109,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "primaer_kode",
@@ -130,7 +135,8 @@
             "_checks": [
                 "primaer_kode = ANY (ARRAY[0, 1]",
                 "primaer_kode = ANY (ARRAY[0, 1]"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -152,7 +158,8 @@
             "_index_method": null,
             "_checks": null,
             "_geom_type": "MultiPoint",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         },
         {
             "name": "tilgaeng_kode",
@@ -174,7 +181,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         }
     ],
     "comment": null,

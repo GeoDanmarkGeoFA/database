@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "id_cykelknudepkt",
@@ -43,7 +44,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "id_cykelkp"
         },
         {
             "name": "nodenumber",
@@ -63,7 +65,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "nodenumber"
         },
         {
             "name": "beliggenhedskommune",
@@ -83,7 +86,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "belig_kom"
         },
         {
             "name": "planstatus_kode",
@@ -105,7 +109,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "planstat_k"
         },
         {
             "name": "ismain",
@@ -125,7 +130,8 @@
             "is_nullable": true,
             "default_value": false,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "ismain"
         },
         {
             "name": "deadend",
@@ -145,7 +151,8 @@
             "is_nullable": false,
             "default_value": false,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "deadend"
         },
         {
             "name": "refmain",
@@ -165,7 +172,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "refmain"
         },
         {
             "name": "afm_cykelknudepkt",
@@ -185,7 +193,8 @@
             "is_nullable": false,
             "default_value": false,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "afm_kpkt"
         },
         {
             "name": "link",
@@ -205,7 +214,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "geometri",
@@ -229,7 +239,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPoint",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         }
     ],
     "comment": null,

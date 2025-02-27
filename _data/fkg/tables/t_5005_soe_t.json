@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "soe_navn",
@@ -43,7 +44,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "dmu_ref",
@@ -63,7 +65,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "soe_nr",
@@ -83,7 +86,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "maalsaetning_kode",
@@ -105,7 +109,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "soe_type_kode",
@@ -127,7 +132,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "habitat_type_kode",
@@ -149,7 +155,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "trussel_vand_kode",
@@ -171,7 +178,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "sejlads",
@@ -191,7 +199,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "tilstand",
@@ -211,7 +220,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "opholdstid",
@@ -233,7 +243,8 @@
             "_index_method": null,
             "_checks": [
                 "opholdstid >= 0.1::double precision AND opholdstid <= 99.9::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "volumen",
@@ -255,7 +266,8 @@
             "_index_method": null,
             "_checks": [
                 "volumen >= 0.1::double precision AND volumen <= 999.9::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "fot_id",
@@ -277,7 +289,8 @@
             "_index_method": null,
             "_checks": [
                 "fot_id >= 0 AND fot_id <= '2147483648'::bigint"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "link",
@@ -297,7 +310,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -321,7 +335,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,

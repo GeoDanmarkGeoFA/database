@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "pleje_type_kode",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "omr_nr",
@@ -67,7 +69,8 @@
             "_index_method": null,
             "_checks": [
                 "omr_nr >= 1 AND omr_nr <= 99999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "omr_navn",
@@ -87,7 +90,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "fortidsmindenr",
@@ -107,7 +111,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "faciliteter_kode",
@@ -129,7 +134,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "aftale_type",
@@ -149,7 +155,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "aftale_nr",
@@ -169,7 +176,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "gyldig_fra",
@@ -189,7 +197,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "gyldig_til",
@@ -209,7 +218,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "ejerstatus_kode",
@@ -231,7 +241,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "sagsnr",
@@ -251,7 +262,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "projekt_type",
@@ -271,7 +283,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "dyrehold",
@@ -291,7 +304,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "antal_moder",
@@ -313,7 +327,8 @@
             "_index_method": null,
             "_checks": [
                 "antal_moder >= 0 AND antal_moder <= 999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "chr",
@@ -335,7 +350,8 @@
             "_index_method": null,
             "_checks": [
                 "chr >= 0 AND chr <= 9999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "navn",
@@ -355,7 +371,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "telefon",
@@ -377,7 +394,8 @@
             "_index_method": null,
             "_checks": [
                 "telefon >= 10000000 AND telefon <= 99999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "mobil",
@@ -399,7 +417,8 @@
             "_index_method": null,
             "_checks": [
                 "mobil >= 10000000 AND mobil <= 99999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "mail",
@@ -419,7 +438,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "ajour",
@@ -441,7 +461,8 @@
             "_index_method": null,
             "_checks": [
                 "ajour >= '2006-12-31'::date AND ajour <= '2999-12-31'::date"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "link",
@@ -461,7 +482,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -485,7 +507,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,

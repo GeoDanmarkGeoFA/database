@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "facil_ty_k",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "facil_ty_k"
         },
         {
             "name": "handicap_k",
@@ -67,7 +69,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "handicap_k"
         },
         {
             "name": "navn",
@@ -87,7 +90,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "navn"
         },
         {
             "name": "beskrivels",
@@ -107,7 +111,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "beskrivels"
         },
         {
             "name": "link",
@@ -127,7 +132,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "geometri",
@@ -151,7 +157,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         },
         {
             "name": "saeson_k",
@@ -173,7 +180,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "saeson_k"
         },
         {
             "name": "ansvar_org",
@@ -193,7 +201,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "ansvar_org"
         },
         {
             "name": "kontak_ved",
@@ -213,7 +222,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "kontak_ved"
         },
         {
             "name": "foto_link1",
@@ -233,7 +243,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link1"
         },
         {
             "name": "foto_link2",
@@ -253,7 +264,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link2"
         },
         {
             "name": "ansva_v_k",
@@ -275,7 +287,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "ansva_v_k"
         },
         {
             "name": "lang_beskr",
@@ -295,7 +308,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "lang_beskr"
         },
         {
             "name": "uk_k_beskr",
@@ -315,7 +329,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "uk_k_beskr"
         },
         {
             "name": "uk_l_beskr",
@@ -335,7 +350,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "uk_l_beskr"
         },
         {
             "name": "d_k_beskr",
@@ -355,7 +371,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "d_k_beskr"
         },
         {
             "name": "d_l_beskr",
@@ -375,7 +392,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "d_l_beskr"
         },
         {
             "name": "doegnaab_k",
@@ -397,7 +415,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "doegnaab_k"
         },
         {
             "name": "vandhane_k",
@@ -419,7 +438,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "vandhane_k"
         },
         {
             "name": "bemand_k",
@@ -441,7 +461,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "bemand_k"
         },
         {
             "name": "betaling_k",
@@ -463,7 +484,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "betaling_k"
         },
         {
             "name": "book_k",
@@ -485,7 +507,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "book_k"
         },
         {
             "name": "antal_pl",
@@ -507,7 +530,8 @@
             "_index_method": null,
             "_checks": [
                 "antal_pl >= 0 AND antal_pl <= 9999"
-            ]
+            ],
+            "_short_name": "antal_pl"
         },
         {
             "name": "filmlink",
@@ -527,7 +551,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "filmlink"
         },
         {
             "name": "adr_id",
@@ -547,7 +572,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "adr_id"
         },
         {
             "name": "saeson_bem",
@@ -567,7 +593,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "saeson_bem"
         },
         {
             "name": "folder_k",
@@ -589,7 +616,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "folder_k"
         },
         {
             "name": "folde_link",
@@ -609,7 +637,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "folde_link"
         },
         {
             "name": "foto_link",
@@ -629,7 +658,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link"
         },
         {
             "name": "foto_link3",
@@ -649,7 +679,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link3"
         },
         {
             "name": "geofafoto",
@@ -669,7 +700,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto"
         },
         {
             "name": "geofafoto1",
@@ -689,7 +721,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto1"
         },
         {
             "name": "geofafoto2",
@@ -709,7 +742,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto2"
         },
         {
             "name": "geofafoto3",
@@ -729,7 +763,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto3"
         },
         {
             "name": "filmlink1",
@@ -749,7 +784,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "filmlink1"
         },
         {
             "name": "filmlink2",
@@ -769,7 +805,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "filmlink2"
         },
         {
             "name": "filmlink3",
@@ -789,7 +826,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "filmlink3"
         },
         {
             "name": "vejkode",
@@ -811,7 +849,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "vejkode"
         },
         {
             "name": "cvf_vejkode",
@@ -831,7 +870,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "cvf_vejkode"
         },
         {
             "name": "husnr",
@@ -851,7 +891,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "husnr"
         },
         {
             "name": "postnr",
@@ -873,7 +914,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "postnr"
         },
         {
             "name": "link1",
@@ -893,7 +935,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link1"
         },
         {
             "name": "link2",
@@ -913,7 +956,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link2"
         },
         {
             "name": "link3",
@@ -933,7 +977,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "ink3"
         },
         {
             "name": "foldelink1",
@@ -953,7 +998,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foldelink1"
         },
         {
             "name": "foldelink2",
@@ -973,7 +1019,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foldelink2"
         },
         {
             "name": "foldelink3",
@@ -993,7 +1040,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foldelink3"
         },
         {
             "name": "saeson_st",
@@ -1015,7 +1063,8 @@
             "_index_method": null,
             "_checks": [
                 "date_part('year'::text, saeson_st"
-            ]
+            ],
+            "_short_name": "saeson_st"
         },
         {
             "name": "saeson_sl",
@@ -1037,7 +1086,8 @@
             "_index_method": null,
             "_checks": [
                 "date_part('year'::text, saeson_sl"
-            ]
+            ],
+            "_short_name": "saeson_sl"
         },
         {
             "name": "kvalitet_k",
@@ -1059,7 +1109,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "kvalitet_k"
         },
         {
             "name": "navn_uk",
@@ -1079,7 +1130,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "navn_d",
@@ -1099,7 +1151,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "tilgaeng_beskriv",
@@ -1119,7 +1172,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "tilgaeng_b"
         },
         {
             "name": "tilgaeng_opl",
@@ -1139,7 +1193,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "tilgaeng_o"
         },
         {
             "name": "beliggenhedskommune",
@@ -1159,7 +1214,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         }
     ],
     "comment": null,

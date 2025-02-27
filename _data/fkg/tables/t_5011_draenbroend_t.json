@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "broend_nr",
@@ -43,7 +44,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "broend_nr"
         },
         {
             "name": "broendtype_kode",
@@ -65,7 +67,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "br_type_k"
         },
         {
             "name": "diameter_mm",
@@ -87,7 +90,8 @@
             "_index_method": null,
             "_checks": [
                 "diameter_mm::double precision >= 1::double precision AND diameter_mm::double precision <= 9999::double precision"
-            ]
+            ],
+            "_short_name": "diam_mm"
         },
         {
             "name": "diameter_tommer",
@@ -109,7 +113,8 @@
             "_index_method": null,
             "_checks": [
                 "diameter_tommer >= 0.01::double precision AND diameter_tommer <= 3943.66::double precision"
-            ]
+            ],
+            "_short_name": "diam_tomme"
         },
         {
             "name": "dybde_udloeb",
@@ -131,7 +136,8 @@
             "_index_method": null,
             "_checks": [
                 "dybde_udloeb::double precision >= 0::double precision AND dybde_udloeb::double precision <= 200::double precision"
-            ]
+            ],
+            "_short_name": "dybde_ud"
         },
         {
             "name": "kote_udloeb",
@@ -153,7 +159,8 @@
             "_index_method": null,
             "_checks": [
                 "kote_udloeb >= '-10.0'::numeric::double precision AND kote_udloeb <= 200.0::double precision"
-            ]
+            ],
+            "_short_name": "kote_ud"
         },
         {
             "name": "kotesystem_kode",
@@ -175,7 +182,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "kotesyst_k"
         },
         {
             "name": "datakilde_kode",
@@ -197,7 +205,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "datakild_k"
         },
         {
             "name": "bemaerkning",
@@ -217,7 +226,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "bemaerk"
         },
         {
             "name": "broend_synlig",
@@ -237,7 +247,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "broend_syn"
         },
         {
             "name": "etableringstidspunkt",
@@ -257,7 +268,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "etabl_tid"
         },
         {
             "name": "praecision_god",
@@ -277,7 +289,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "praecis"
         },
         {
             "name": "sagsnr",
@@ -297,7 +310,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "sagsnr"
         },
         {
             "name": "link",
@@ -317,7 +331,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "geometri",
@@ -341,7 +356,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPoint",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         }
     ],
     "comment": null,

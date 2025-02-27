@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vedlhold_p_type_kode",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "f_typ_kode"
         },
         {
             "name": "biodiversitet",
@@ -65,7 +67,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "biodivers"
         },
         {
             "name": "arbejdssted",
@@ -85,7 +88,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "arb_sted"
         },
         {
             "name": "konto_nr",
@@ -105,7 +109,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "konto_nr"
         },
         {
             "name": "cvr_opslag",
@@ -125,7 +130,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "cvr_opslag"
         },
         {
             "name": "udfoerer_entrep",
@@ -145,7 +151,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "udf_entrep"
         },
         {
             "name": "udbyder_kontakt",
@@ -165,7 +172,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "udbyder"
         },
         {
             "name": "sagsnr",
@@ -185,7 +193,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "sagsnr"
         },
         {
             "name": "froeaar",
@@ -207,7 +216,8 @@
             "_index_method": null,
             "_checks": [
                 "froeaar >= '1600-01-01'::date AND froeaar <= '2999-12-31'::date"
-            ]
+            ],
+            "_short_name": "froeaar"
         },
         {
             "name": "anlaegsdato",
@@ -229,7 +239,8 @@
             "_index_method": null,
             "_checks": [
                 "anlaegsdato >= '1600-01-01'::date AND anlaegsdato <= '2999-12-31'::date"
-            ]
+            ],
+            "_short_name": "anlaeg_dato"
         },
         {
             "name": "etabl_pleje_udloeb",
@@ -251,7 +262,8 @@
             "_index_method": null,
             "_checks": [
                 "etabl_pleje_udloeb >= '2007-01-01'::date AND etabl_pleje_udloeb <= '2999-12-31'::date"
-            ]
+            ],
+            "_short_name": "etab_udlob"
         },
         {
             "name": "udskiftningsdato",
@@ -273,7 +285,8 @@
             "_index_method": null,
             "_checks": [
                 "udskiftningsdato >= '2007-01-01'::date AND udskiftningsdato <= '2999-12-31'::date"
-            ]
+            ],
+            "_short_name": "udskift"
         },
         {
             "name": "hoejde",
@@ -295,7 +308,8 @@
             "_index_method": null,
             "_checks": [
                 "hoejde >= 0.01::double precision AND hoejde <= 9.99::double precision"
-            ]
+            ],
+            "_short_name": "hoejde"
         },
         {
             "name": "bredde",
@@ -317,7 +331,8 @@
             "_index_method": null,
             "_checks": [
                 "bredde >= 0.01::double precision AND bredde <= 9.99::double precision"
-            ]
+            ],
+            "_short_name": "bredde"
         },
         {
             "name": "laengde",
@@ -339,7 +354,8 @@
             "_index_method": null,
             "_checks": [
                 "laengde >= 0.01::double precision AND laengde <= 99999.99::double precision"
-            ]
+            ],
+            "_short_name": "laengde"
         },
         {
             "name": "diameter",
@@ -361,7 +377,8 @@
             "_index_method": null,
             "_checks": [
                 "diameter >= 0.01::double precision AND diameter <= 99.99::double precision"
-            ]
+            ],
+            "_short_name": "diameter"
         },
         {
             "name": "areal",
@@ -383,7 +400,8 @@
             "_index_method": null,
             "_checks": [
                 "areal >= 0.5::double precision AND areal <= 99999.99::double precision"
-            ]
+            ],
+            "_short_name": "areal"
         },
         {
             "name": "omkreds",
@@ -405,7 +423,8 @@
             "_index_method": null,
             "_checks": [
                 "omkreds >= 0.01::double precision AND omkreds <= 99.99::double precision"
-            ]
+            ],
+            "_short_name": "omkreds"
         },
         {
             "name": "klip_sider",
@@ -427,7 +446,8 @@
             "_index_method": null,
             "_checks": [
                 "klip_sider >= 0 AND klip_sider <= 2"
-            ]
+            ],
+            "_short_name": "klip_sider"
         },
         {
             "name": "klip_flade",
@@ -449,7 +469,8 @@
             "_index_method": null,
             "_checks": [
                 "klip_flade >= 0.01::double precision AND klip_flade <= 99999.99::double precision"
-            ]
+            ],
+            "_short_name": "klip_flade"
         },
         {
             "name": "iot_enhed",
@@ -469,7 +490,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "io_enhed"
         },
         {
             "name": "iot_maaling",
@@ -489,7 +511,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "iot_maal"
         },
         {
             "name": "driftniv_kode",
@@ -511,7 +534,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "driftniv_k"
         },
         {
             "name": "ukrudtsbek_kode",
@@ -533,7 +557,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "ukrudt_k"
         },
         {
             "name": "tilstand_kode",
@@ -555,7 +580,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "tilstand_k"
         },
         {
             "name": "tilstand_dato",
@@ -577,7 +603,8 @@
             "_index_method": null,
             "_checks": [
                 "tilstand_dato >= '1600-01-01'::date AND tilstand_dato <= '2999-12-31'::date"
-            ]
+            ],
+            "_short_name": "tilst_dato"
         },
         {
             "name": "vejkode",
@@ -599,7 +626,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "vejkode"
         },
         {
             "name": "traebetegn_kode",
@@ -621,7 +649,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "traebetegn_kode"
         },
         {
             "name": "traeart_sort_suppl",
@@ -641,7 +670,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "traeart_sort_suppl"
         },
         {
             "name": "bevaringsvaerdig_kode",
@@ -663,7 +693,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "bevar_k"
         },
         {
             "name": "tilsynstrae_kode",
@@ -685,7 +716,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "tilsyn_k"
         },
         {
             "name": "livsfase_kode",
@@ -707,7 +739,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "livsfase_kode"
         },
         {
             "name": "link",
@@ -727,7 +760,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "foto_link",
@@ -747,7 +781,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link"
         },
         {
             "name": "foto_link1",
@@ -767,7 +802,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link1"
         },
         {
             "name": "foto_link2",
@@ -787,7 +823,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link2"
         },
         {
             "name": "foto_link3",
@@ -807,7 +844,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "foto_link3"
         },
         {
             "name": "geofafoto",
@@ -827,7 +865,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto"
         },
         {
             "name": "geofafoto1",
@@ -847,7 +886,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto1"
         },
         {
             "name": "geofafoto2",
@@ -867,7 +907,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto2"
         },
         {
             "name": "geofafoto3",
@@ -887,7 +928,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "geofafoto3"
         },
         {
             "name": "geometri",
@@ -911,7 +953,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPoint",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         }
     ],
     "comment": null,

@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "affald_prod_kode",
@@ -45,7 +46,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "navn",
@@ -65,7 +67,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "ejd_nr",
@@ -87,7 +90,8 @@
             "_index_method": null,
             "_checks": [
                 "ejd_nr >= 1000000000 AND ejd_nr <= '9999999999'::bigint"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "vejkode",
@@ -109,7 +113,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "cvf_vejkode",
@@ -129,7 +134,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "husnr",
@@ -149,7 +155,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "postnr",
@@ -171,7 +178,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "markblok",
@@ -191,7 +199,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "dosering_toerstof",
@@ -213,7 +222,8 @@
             "_index_method": null,
             "_checks": [
                 "dosering_toerstof >= 0.01::double precision AND dosering_toerstof <= 9999.99::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "dosering_vaadvaegt",
@@ -235,7 +245,8 @@
             "_index_method": null,
             "_checks": [
                 "dosering_vaadvaegt >= 0.01::double precision AND dosering_vaadvaegt <= 9999.99::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "fosfor_total",
@@ -257,7 +268,8 @@
             "_index_method": null,
             "_checks": [
                 "fosfor_total >= 0.01::double precision AND fosfor_total <= 9999.99::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "fosfor_udnyttelse",
@@ -279,7 +291,8 @@
             "_index_method": null,
             "_checks": [
                 "fosfor_udnyttelse >= 0.01::double precision AND fosfor_udnyttelse <= 100.0::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "kvaelstof_total",
@@ -301,7 +314,8 @@
             "_index_method": null,
             "_checks": [
                 "kvaelstof_total >= 0.01::double precision AND kvaelstof_total <= 9999.99::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "kvaelstof_udnyttelse",
@@ -323,7 +337,8 @@
             "_index_method": null,
             "_checks": [
                 "kvaelstof_udnyttelse >= 0.01::double precision AND kvaelstof_udnyttelse <= 9999.99::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "kalium_total",
@@ -345,7 +360,8 @@
             "_index_method": null,
             "_checks": [
                 "kalium_total >= 0.01::double precision AND kalium_total <= 9999.99::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "udbringning_aar",
@@ -367,7 +383,8 @@
             "_index_method": null,
             "_checks": [
                 "udbringning_aar >= 1900 AND udbringning_aar <= 2999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "sagsnr",
@@ -387,7 +404,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "link",
@@ -407,7 +425,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -431,7 +450,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         },
         {
             "name": "adr_id",
@@ -451,7 +471,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         }
     ],
     "comment": null,

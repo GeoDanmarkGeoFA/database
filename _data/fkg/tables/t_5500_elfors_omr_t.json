@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "net_s_nr",
@@ -45,7 +46,8 @@
             "_index_method": null,
             "_checks": [
                 "net_s_nr >= 0 AND net_s_nr <= 99999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "fs_cvr",
@@ -67,7 +69,8 @@
             "_index_method": null,
             "_checks": [
                 "fs_cvr >= 10000000 AND fs_cvr <= 99999999"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "fs_navn",
@@ -87,7 +90,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "link",
@@ -107,7 +111,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -131,7 +136,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiPolygon",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,

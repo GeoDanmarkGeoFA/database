@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "ledn_nr",
@@ -43,7 +44,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "ledn_nr"
         },
         {
             "name": "ledn_type_kode",
@@ -65,7 +67,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "ledn_type_k"
         },
         {
             "name": "klasse_kode",
@@ -87,7 +90,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "etableringstidspunkt",
@@ -107,7 +111,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "etabl_tid"
         },
         {
             "name": "start_dybde",
@@ -129,7 +134,8 @@
             "_index_method": null,
             "_checks": [
                 "start_dybde >= 0.1::double precision AND start_dybde <= 99.9::double precision"
-            ]
+            ],
+            "_short_name": "start_dyb"
         },
         {
             "name": "slut_dybde",
@@ -151,7 +157,8 @@
             "_index_method": null,
             "_checks": [
                 "slut_dybde >= 0.1::double precision AND slut_dybde <= 99.9::double precision"
-            ]
+            ],
+            "_short_name": "slut_dyb"
         },
         {
             "name": "start_kote",
@@ -173,7 +180,8 @@
             "_index_method": null,
             "_checks": [
                 "start_kote >= '-10.0'::numeric::double precision AND start_kote <= 200.0::double precision"
-            ]
+            ],
+            "_short_name": "start_kote"
         },
         {
             "name": "slut_kote",
@@ -195,7 +203,8 @@
             "_index_method": null,
             "_checks": [
                 "slut_kote >= '-10.0'::numeric::double precision AND slut_kote <= 200.0::double precision"
-            ]
+            ],
+            "_short_name": "slut_kote"
         },
         {
             "name": "kotesystem_kode",
@@ -217,7 +226,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "kotesyst_k"
         },
         {
             "name": "fald_promille",
@@ -239,7 +249,8 @@
             "_index_method": null,
             "_checks": [
                 "fald_promille >= 0.0::double precision AND fald_promille <= 1000.0::double precision"
-            ]
+            ],
+            "_short_name": "fald_prom"
         },
         {
             "name": "diameter_mm",
@@ -261,7 +272,8 @@
             "_index_method": null,
             "_checks": [
                 "diameter_mm::double precision >= 1::double precision AND diameter_mm::double precision <= 999::double precision"
-            ]
+            ],
+            "_short_name": "diam_mm"
         },
         {
             "name": "diameter_tommer",
@@ -283,7 +295,8 @@
             "_index_method": null,
             "_checks": [
                 "diameter_tommer >= 0.01::double precision AND diameter_tommer <= 39.99::double precision"
-            ]
+            ],
+            "_short_name": "diam_tomme"
         },
         {
             "name": "datakilde_kode",
@@ -305,7 +318,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "datakild_k"
         },
         {
             "name": "praecision_god",
@@ -325,7 +339,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "praecis"
         },
         {
             "name": "projektnr",
@@ -345,7 +360,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "projektnr"
         },
         {
             "name": "kommentar",
@@ -365,7 +381,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "kommentar"
         },
         {
             "name": "sagsnr",
@@ -385,7 +402,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "sagsnr"
         },
         {
             "name": "link",
@@ -405,7 +423,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": "link"
         },
         {
             "name": "geometri",
@@ -429,7 +448,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiLineString",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": "the_geom"
         }
     ],
     "comment": null,

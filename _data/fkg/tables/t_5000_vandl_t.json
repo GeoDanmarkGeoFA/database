@@ -23,7 +23,8 @@
             "_index_method": [
                 "btree"
             ],
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "navn",
@@ -43,7 +44,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "dmu_ref",
@@ -63,7 +65,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vandloeb_nr",
@@ -83,7 +86,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "maalsaetning_kode",
@@ -105,7 +109,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vandl_type_kode",
@@ -127,7 +132,8 @@
             "is_nullable": false,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "ejerstatus_kode",
@@ -149,7 +155,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "klasse_kode",
@@ -171,7 +178,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "tidl_amt_kode",
@@ -193,7 +201,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "vedligehold",
@@ -213,7 +222,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "ansvar_vedligehold",
@@ -233,7 +243,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "p3vandloeb_kode",
@@ -255,7 +266,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "sejlads",
@@ -275,7 +287,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "dvfi_bedoemmelse_kode",
@@ -297,7 +310,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "station_fra",
@@ -319,7 +333,8 @@
             "_index_method": null,
             "_checks": [
                 "station_fra >= 0.0::double precision AND station_fra <= 200000.0::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "station_til",
@@ -341,7 +356,8 @@
             "_index_method": null,
             "_checks": [
                 "station_til >= 0.0::double precision AND station_til <= 200000.0::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "vandloebs_bredde",
@@ -363,7 +379,8 @@
             "_index_method": null,
             "_checks": [
                 "vandloebs_bredde >= 0.1::double precision AND vandloebs_bredde <= 99.9::double precision"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "vandfoeringsforhold",
@@ -385,7 +402,8 @@
             "_index_method": null,
             "_checks": [
                 "vandfoeringsforhold >= 9 AND vandfoeringsforhold <= 45"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "maalsaetning_opfyldt_kode",
@@ -407,7 +425,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "fot_id",
@@ -429,7 +448,8 @@
             "_index_method": null,
             "_checks": [
                 "fot_id >= 0 AND fot_id <= '2147483648'::bigint"
-            ]
+            ],
+            "_short_name": null
         },
         {
             "name": "trussel_vand_kode",
@@ -451,7 +471,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "link",
@@ -471,7 +492,8 @@
             "is_nullable": true,
             "default_value": true,
             "_index_method": null,
-            "_checks": null
+            "_checks": null,
+            "_short_name": null
         },
         {
             "name": "geometri",
@@ -495,7 +517,8 @@
             ],
             "_checks": null,
             "_geom_type": "MultiLineString",
-            "_srid": "25832"
+            "_srid": "25832",
+            "_short_name": null
         }
     ],
     "comment": null,
