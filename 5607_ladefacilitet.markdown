@@ -51,7 +51,7 @@
             {% endif %}
 
             <td>{{ column.name }}</td>
-            <td>10 tegn</td>
+            <td>{{ column.name }}</td>
             <td>{{ column.comment }}</td>
             <td>{{ column.type }}</td>
             <td>{{ restrictions | truncate: 1000 }}{{ checks }}</td>

@@ -933,7 +933,7 @@
         },
         "p_brug_kode": {
             "type": "integer",
-            "comment": "",
+            "comment": "Kode til angivelse af k\u00f8ret\u00f8jstyper, der  kan bruge parkeringspladsen.",
             "num": 20,
             "full_type": "integer",
             "typname": "int4",
@@ -1066,7 +1066,7 @@
         },
         "p_brug_tekst": {
             "type": "character varying",
-            "comment": "",
+            "comment": "Mulighed for tilf\u00f8jelse af supplerende  oplysninger .",
             "num": 22,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -1080,7 +1080,7 @@
         },
         "p_antal": {
             "type": "integer",
-            "comment": "",
+            "comment": "Hvis man v\u00e6lger at registrere et antal  parkeringspladser for en specifik  k\u00f8ret\u00f8jstype (p-brug) som \u00e9t punkt, kan  man her angive antallet af pladser.",
             "num": 23,
             "full_type": "integer",
             "typname": "int4",
@@ -1094,7 +1094,7 @@
         },
         "p_zone_nr": {
             "type": "character varying",
-            "comment": "",
+            "comment": "Refererer til det zone-nr, der er angivet  for den zone p-pladsen h\u00f8rer til. Kan  anvendes til at etablere en sammenh\u00e6ng  mellem p-plads og den p-zone, som p pladsen er i. ",
             "num": 24,
             "full_type": "character varying(50)",
             "typname": "varchar",
@@ -1108,7 +1108,7 @@
         },
         "omraade": {
             "type": "character varying",
-            "comment": "",
+            "comment": "Kan anvendes til at etablere en sproglig  sammenh\u00e6ng mellem p-plads og den p zone den er i ved at angive et unikt  omr\u00e5denavn.  Felt defineret under: 4.1  Standardiserede felter til de  temaspecifikke datamodeller  (\u2019omraade\u2019)  Tekststreng 0-50 tegn F Bindslevs Plads  Felter markeret med bl\u00e5 er temaspecifikke opslagstabeller, der indehold.",
             "num": 25,
             "full_type": "character varying(50)",
             "typname": "varchar",
