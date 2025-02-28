@@ -4,7 +4,7 @@
     "f_table_name": "t_5605_vejbyggel",
     "f_geometry_column": "geometri",
     "f_table_abstract": null,
-    "f_table_title": "Trafik_byggelinje (5605)",
+    "f_table_title": "Trafik byggelinje (5605)",
     "pkey": "objekt_id",
     "rel_type": "VIEW",
     "coord_dimension": 2,
@@ -1125,5 +1125,10 @@
             "srid": "25832"
         }
     },
-    "children": null
+    "children": null,
+    "meta": {
+        "vidi_layer_type": "t,v",
+        "default_layer_type": "t",
+        "vidi_layer_editable": true
+    }
 }

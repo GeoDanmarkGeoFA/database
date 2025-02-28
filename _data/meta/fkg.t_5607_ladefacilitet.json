@@ -1620,5 +1620,10 @@
             "restriction": null
         }
     },
-    "children": null
+    "children": null,
+    "meta": {
+        "vidi_layer_type": "t,v",
+        "default_layer_type": "t",
+        "vidi_layer_editable": true
+    }
 }
