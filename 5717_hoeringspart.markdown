@@ -47,14 +47,14 @@
     </tr>
     <tr>
         <td>Nøgleord hovedgruppe</td>
-        <td>{{ meta.meta.noegleord_hovedgruppe  }}</td>
+        <td>{{ meta.meta.noegleord_hovedgruppe }}</td>
     </tr>
     <tr>
         <td>Nøegleord</td>
         <td>{{ meta.meta.noegle_ord }}</td>
     </tr>
     <tr>
-        <td>Geometri type </td>
+        <td>Geometri type</td>
         <td>{{ meta.meta.geometritype }}</td>
     </tr>
     <tr>
@@ -86,7 +86,7 @@
         <td>{{ meta.meta.klassificering_opdeling }}</td>
     </tr>
     <tr>
-        <td>Minimum størrelser for objekt </td>
+        <td>Minimum størrelser for objekt</td>
         <td>{{ meta.meta.minimum_stoerrelser }}</td>
     </tr>
     <tr>
@@ -99,7 +99,7 @@
     </tr>
     <tr>
         <td>Geometrisk konsistens med objekter i andre</td>
-        <td>{{ meta.meta.geometrisk_konsistens_andre  }}</td>
+        <td>{{ meta.meta.geometrisk_konsistens_andre }}</td>
     </tr>
     </tbody>
 </table>
@@ -216,7 +216,15 @@
 
     {% for field in meta.fields %}
 
-        {% assign column = table.columns | where: "name",field[0] %}
+        {% assign column = table.columns | where: "name", field[0] %}
+        {% assign g_column = generel.columns | where: "name", field[0] %}
+        
+        {% if g_column[0].comment != null %}
+            {% assign comment = g_column[0].comment %}
+        {% else %}
+            {% assign comment = field[1].comment %}
+
+        {% endif %}
 
 
         {% if column[0].name == field[0] %}
@@ -225,7 +233,7 @@
             {% assign system = true %}
         {% endif %}
 
-        {% if column[0].is_nullable or field[0] == "noegle" or field[0] == "note" %}
+        {% if column[0].is_nullable or field[0] == "noegle" or field[0] == "note" or field[0] == "systid_til" %}
             {% assign must = false %}
         {% else %}
             {% assign must = true %}
@@ -245,27 +253,28 @@
             <tr>
         {% endif %}
 
-            {% assign checks = column[0]._checks[0] %}
+        {% assign checks = column[0]._checks[0] %}
 
-            {% if field[1].restriction != null %}
-                {% assign restrictions = field[1].restriction %}
-            {% endif %}
+        {% if field[1].restriction != null %}
+            {% assign restrictions = field[1].restriction %}
+        {% endif %}
 
-            {% if field[1].restriction != null %}
-                {% assign rs = field[1].restriction %}
-                {% capture restrictions %}
-                    {% if field[1].restriction != null %}{% for r in rs %} {{ r.value }} = {{ r.alias }}
-                        <br>  {% endfor %}{% endif %}
-                {% endcapture %}
-            {% else %}
-                {% assign restrictions = null %}
-            {% endif %}
+        {% if field[1].restriction != null %}
+            {% assign rs = field[1].restriction %}
+            {% capture restrictions %}
+                {% if field[1].restriction != null %}{% for r in rs %} {{ r.value }} = {{ r.alias }}
+                    <br>  {% endfor %}{% endif %}
+            {% endcapture %}
+        {% else %}
+            {% assign restrictions = null %}
+        {% endif %}
 
-            <td>{{ field[0] }}</td>
-            <td>{{ short }}</td>
-            <td>{{ field[1].full_type }}</td>
-            <td>{{ restrictions | truncate: 1000 }}{{ checks }}</td>
-            <td>{{ must }}</td>
+        <td>{{ field[0] }}</td>
+        <td>{{ short }}</td>
+        <td>{{ comment }}</td>
+        <td>{{ field[1].full_type }}</td>
+        <td>{{ restrictions | truncate: 1000 }}{{ checks }}</td>
+        <td>{{ must }}</td>
         </tr>
     {% endfor %}
 </table>
