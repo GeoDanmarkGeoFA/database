@@ -16,8 +16,6 @@
 
 <h1>{{ theme }}</h1>
 
-{{ meta.meta }}
-
 <h2>Metadata</h2>
 <table>
     <thead>
@@ -33,39 +31,75 @@
     </tr>
     <tr>
         <td>Temakode</td>
-        <td>{{ meta.meta.temanavn }}</td>
+        <td>{{ meta.meta.temakode }}</td>
     </tr>
     <tr>
         <td>Definition</td>
-        <td>{{ meta.meta.temanavn }}</td>
+        <td>{{ meta.meta.definition }}</td>
     </tr>
     <tr>
         <td>Beskrivelse</td>
-        <td>{{ meta.meta.temanavn }}</td>
+        <td>{{ meta.meta.beskrivelse }}</td>
     </tr>
     <tr>
         <td>Formål</td>
-        <td>{{ meta.meta.temanavn }}</td>
+        <td>{{ meta.meta.formaal }}</td>
     </tr>
     <tr>
         <td>Nøgleord hovedgruppe</td>
-        <td>{{ meta.meta.temanavn }}</td>
+        <td>{{ meta.meta.noegleord_hovedgruppe }}</td>
     </tr>
     <tr>
         <td>Nøegleord</td>
-        <td>{{ meta.meta.temanavn }}</td>
+        <td>{{ meta.meta.noegle_ord }}</td>
     </tr>
     <tr>
         <td>Geometri type</td>
-        <td>{{ meta.meta.temanavn }}</td>
+        <td>{{ meta.meta.geometritype }}</td>
     </tr>
     <tr>
         <td>Lovgrundlag</td>
-        <td>{{ meta.meta.temanavn }}</td>
+        <td>{{ meta.meta.lovgrundlag }}</td>
     </tr>
     <tr>
         <td>KLE koder</td>
-        <td>{{ meta.meta.temanavn }}</td>
+        <td>{{ meta.meta.kle_koder }}</td>
+    </tr>
+    </tbody>
+</table>
+
+<h2>Registreringsvejledning</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Emne</th>
+        <th>Beskrivelse</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Registreringsinstruks</td>
+        <td>{{ meta.meta.registreringsinstruks }}</td>
+    </tr>
+    <tr>
+        <td>Klassificering/opdeling</td>
+        <td>{{ meta.meta.klassificering_opdeling }}</td>
+    </tr>
+    <tr>
+        <td>Minimum størrelser for objekt</td>
+        <td>{{ meta.meta.minimum_stoerrelser }}</td>
+    </tr>
+    <tr>
+        <td>Entydige objekter</td>
+        <td>{{ meta.meta.entydige_objekter }}</td>
+    </tr>
+    <tr>
+        <td>Geometrisk konsistens mellem objekter</td>
+        <td>{{ meta.meta.geometrisk_konsistens }}</td>
+    </tr>
+    <tr>
+        <td>Geometrisk konsistens med objekter i andre</td>
+        <td>{{ meta.meta.geometrisk_konsistens_andre }}</td>
     </tr>
     </tbody>
 </table>
@@ -183,6 +217,14 @@
     {% for field in meta.fields %}
 
         {% assign column = table.columns | where: "name", field[0] %}
+        {% assign g_column = generel.columns | where: "name", field[0] %}
+
+        {% if g_column[0].comment != null %}
+            {% assign comment = g_column[0].comment %}
+        {% else %}
+            {% assign comment = field[1].comment %}
+
+        {% endif %}
 
 
         {% if column[0].name == field[0] %}
@@ -191,7 +233,7 @@
             {% assign system = true %}
         {% endif %}
 
-        {% if column[0].is_nullable or field[0] == "noegle" or field[0] == "note" %}
+        {% if column[0].is_nullable or field[0] == "noegle" or field[0] == "note" or field[0] == "systid_til" %}
             {% assign must = false %}
         {% else %}
             {% assign must = true %}
@@ -229,10 +271,12 @@
 
         <td>{{ field[0] }}</td>
         <td>{{ short }}</td>
+        <td>{{ comment }}</td>
         <td>{{ field[1].full_type }}</td>
         <td>{{ restrictions | truncate: 1000 }}{{ checks }}</td>
         <td>{{ must }}</td>
         </tr>
     {% endfor %}
 </table>
+
 
